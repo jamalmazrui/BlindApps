@@ -4,7 +4,7 @@ subtitle: "A Directory of Apps and Tools Created by Developers Who Are Blind or 
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.5.0"
+version: "v1.6.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 96 apps and tools made by 39 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 97 apps and tools made by 40 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,17 +47,17 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 96 apps from 39 developers, an average of 2.6 apps per developer (median 2). Of these, 18 developers have one app each; the most prolific are listed below.
+The directory holds 97 apps from 40 developers, an average of 2.4 apps per developer (median 2). Of these, 19 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, or an AI coding tool.
 
-- Windows only: 31 apps.
+- Windows only: 32 apps.
 - More than one platform: 34 apps.
 - Living inside another program (a screen reader, REAPER, or an AI coding tool): 21 apps.
 - Linux, macOS, and Windows together: 8 apps.
-- Desktop (Linux, macOS, or Windows): 55 apps.
+- Desktop (Linux, macOS, or Windows): 56 apps.
 - Phone or tablet (Android or iOS): 19 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 16 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
@@ -67,7 +67,7 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 51
+- [Windows](#platform-windows): 52
 - [macOS](#platform-macos): 19
 - [iOS](#platform-ios): 16
 - [NVDA](#platform-nvda): 13
@@ -89,7 +89,7 @@ Most first; an app on several platforms counts once for each.
 Most first; each app has one category.
 
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 15
-- [Developer tools and libraries](#category-developer-tools-and-libraries): 10
+- [Developer tools and libraries](#category-developer-tools-and-libraries): 11
 - [Files and system utilities](#category-files-and-system-utilities): 10
 - [Documents and reading](#category-documents-and-reading): 8
 - [Productivity and daily living](#category-productivity-and-daily-living): 8
@@ -108,13 +108,13 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 9 apps.
-- Built with the help of an AI: 17 apps.
+- Built with the help of an AI: 18 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 69 of the 96 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 70 of the 97 apps; an app written in two languages counts once for each. Most first.
 
-- Python: 21
+- Python: 22
 - C#: 8
 - Rust: 4
 - Swift: 4
@@ -142,7 +142,7 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 - AI vision models: 4
 - Microsoft Edge: 4
 - SwiftUI: 3
-- wxPython: 3
+- wxPython: 4
 - ARIA: 2
 - Chrome DevTools Protocol: 2
 - FFmpeg: 2
@@ -156,7 +156,7 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 58
+- GitHub: 59
 - Developer website: 26
 - App Store: 7
 - NVDA Community Add-ons: 2
@@ -490,6 +490,16 @@ A screen-reader-friendly desktop app for reading and managing GitHub issues, pul
 - Developer: [Kelly Ford][dev-ford]
 - Platform: macOS, Windows
 - Tech: GitHub CLI, Python, wxPython
+
+### [GitHub Downloader][github-downloader] {#github-downloader}
+
+Searches a GitHub repository's releases and downloads their files, several at once, into a folder named for the release.
+
+- Available from: GitHub
+- Category: [Developer tools and libraries](#category-developer-tools-and-libraries)
+- Developer: [Gianluca Apollaro][dev-apollaro]
+- Platform: Windows
+- Tech: AI coding tools (to build), Python, wxPython
 
 ### [GLOW Accessibility Toolkit][glow] {#glow}
 
@@ -1309,7 +1319,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (51 apps) {#platform-windows}
+### Windows (52 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
@@ -1328,6 +1338,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [FileDir](#filedir), Mazrui
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [GHManage](#ghmanage), Ford
+- [GitHub Downloader](#github-downloader), Apollaro
 - [HomerDev](#homerdev), Mazrui
 - [HomerScribe](#homerscribe), Mazrui
 - [Hyper-V Manage](#hyperv-manage), Ford
@@ -1408,13 +1419,14 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TTCom](#ttcom), Doug Lee
 - [Zerogram](#zerogram), Karaca
 
-### Developer tools and libraries (10 apps) {#category-developer-tools-and-libraries}
+### Developer tools and libraries (11 apps) {#category-developer-tools-and-libraries}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [AccessKit](#accesskit), Campbell
 - [Codestats](#codestats), Gillespie
 - [GHManage](#ghmanage), Ford
+- [GitHub Downloader](#github-downloader), Apollaro
 - [HomerDev](#homerdev), Mazrui
 - [Iridium](#iridium), Polykanine
 - [Swift Agents](#swift-agent-team), Arndt
@@ -1516,6 +1528,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 ### [Nicholas Adams][dev-adams] (1 app) {#by-dev-adams}
 
 - [BrailleKeyboard](#braillekeyboard)
+
+### [Gianluca Apollaro][dev-apollaro] (1 app) {#by-dev-apollaro}
+
+- [GitHub Downloader](#github-downloader)
 
 ### [Taylor Arndt][dev-arndt] (5 apps) {#by-dev-arndt}
 
@@ -1727,6 +1743,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [VAL: Voice, Alarm & Chimes](#val)
 
 [app-2htm]: https://github.com/JamalMazrui/2htm
+[github-downloader]: https://github.com/GianlucaApollaro/Github-Downloader
 [acb-link]: https://link.acb.org/
 [accdc]: https://github.com/WhatSock/accdc
 [tsg]: https://github.com/WhatSock/tsg
@@ -1824,6 +1841,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [zoom-meetings]: https://hartgenconsultancy.com/zoom-professional-scripts/
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
+[dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
 [dev-arndt]: https://jamalmazrui.github.io/BlindDevelopers/#dev-arndt
 [dev-bishop]: https://jamalmazrui.github.io/BlindDevelopers/#dev-bishop
 [dev-boyer]: https://jamalmazrui.github.io/BlindDevelopers/#dev-boyer
