@@ -1,6 +1,6 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 97 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
