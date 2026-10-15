@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 97 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 99 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.6.0"
+version: "v1.7.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 97 apps and tools made by 40 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 99 apps and tools made by 42 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,7 +47,7 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 97 apps from 40 developers, an average of 2.4 apps per developer (median 2). Of these, 19 developers have one app each; the most prolific are listed below.
+The directory holds 99 apps from 42 developers, an average of 2.4 apps per developer (median 1.5). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
@@ -58,7 +58,7 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 - Living inside another program (a screen reader, REAPER, or an AI coding tool): 21 apps.
 - Linux, macOS, and Windows together: 8 apps.
 - Desktop (Linux, macOS, or Windows): 56 apps.
-- Phone or tablet (Android or iOS): 19 apps, of which 8 run on both.
+- Phone or tablet (Android or iOS): 21 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 16 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
 - Co-created by two developers in this directory: 4 apps.
@@ -69,7 +69,7 @@ Most first; an app on several platforms counts once for each.
 
 - [Windows](#platform-windows): 52
 - [macOS](#platform-macos): 19
-- [iOS](#platform-ios): 16
+- [iOS](#platform-ios): 18
 - [NVDA](#platform-nvda): 13
 - [Web](#platform-web): 13
 - [Android](#platform-android): 11
@@ -91,13 +91,13 @@ Most first; each app has one category.
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 15
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 11
 - [Files and system utilities](#category-files-and-system-utilities): 10
+- [Productivity and daily living](#category-productivity-and-daily-living): 9
 - [Documents and reading](#category-documents-and-reading): 8
-- [Productivity and daily living](#category-productivity-and-daily-living): 8
 - [Audio and video production](#category-audio-and-video-production): 7
 - [Screen readers and speech](#category-screen-readers-and-speech): 7
+- [Communication](#category-communication): 6
 - [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 5
 - [AI and visual assistance](#category-ai-and-visual-assistance): 5
-- [Communication](#category-communication): 5
 - [Games and game engines](#category-games-and-game-engines): 5
 - [Media and listening](#category-media-and-listening): 5
 - [Braille and tactile](#category-braille-and-tactile): 4
@@ -107,12 +107,12 @@ Most first; each app has one category.
 
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
-- Using AI while it runs: 9 apps.
+- Using AI while it runs: 10 apps.
 - Built with the help of an AI: 18 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 70 of the 97 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 71 of the 99 apps; an app written in two languages counts once for each. Most first.
 
 - Python: 22
 - C#: 8
@@ -583,6 +583,15 @@ Moves through code and other text by indentation level, jumping to sibling, pare
 - Platform: NVDA
 - Tech: Python
 
+### [Intersector][intersector] {#intersector}
+
+Announces nearby and upcoming street intersections, with their distance and direction, as a blind traveler walks or rides, with an Apple Watch companion.
+
+- Available from: App Store
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Marco Salsiccia][dev-salsiccia]
+- Platform: iOS
+
 ### [Iridium][iridium] {#iridium}
 
 A security library for encrypting data, hashing passwords, and managing secure tokens.
@@ -635,6 +644,16 @@ The open-source braille translator and back-translator behind the braille output
 - Developer: [John Boyer][dev-boyer]
 - Platform: Linux, macOS, Windows
 - Tech: C
+
+### [Lumin][lumin] {#lumin}
+
+Manages email by voice on iPhone, finding, reading, summarizing and answering messages, designed to work alongside VoiceOver.
+
+- Available from: App Store
+- Category: [Communication](#category-communication)
+- Developer: [Sriram Ganesh][dev-ganesh]
+- Platform: iOS
+- Tech: AI language models
 
 ### [LWorks Audio Games][lworks] {#lworks}
 
@@ -1219,11 +1238,13 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [Graphiti](#graphiti), Perry
 
-### iOS (16 apps) {#platform-ios}
+### iOS (18 apps) {#platform-ios}
 
 - [ACB Link](#acb-link), Doise
 - [The Card Place](#card-place), Ford
 - [Clipman](#clipman), Louis
+- [Intersector](#intersector), Salsiccia
+- [Lumin](#lumin), Ganesh
 - [Perspective Intelligence](#perspective-intelligence), Doise
 - [ReVision Fitness](#revision-fitness), Merren
 - [RSS Quick](#rss-quick), Ford
@@ -1411,10 +1432,11 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Graphiti](#graphiti), Perry
 - [Liblouis](#liblouis), Boyer
 
-### Communication (5 apps) {#category-communication}
+### Communication (6 apps) {#category-communication}
 
 - [Accessible Live Captions](#accessible-live-captions), Ford
 - [Fedra](#fedra), Gillespie
+- [Lumin](#lumin), Ganesh
 - [QuickMail](#quickmail), Ford
 - [TTCom](#ttcom), Doug Lee
 - [Zerogram](#zerogram), Karaca
@@ -1478,10 +1500,11 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Quill Radio](#quill-radio), Bishop
 - [Sports Scores](#sports-scores), Ford
 
-### Productivity and daily living (8 apps) {#category-productivity-and-daily-living}
+### Productivity and daily living (9 apps) {#category-productivity-and-daily-living}
 
 - [CAPTCHA Be Gone](#captcha-be-gone), Toth
 - [DbDo](#dbdo), Mazrui
+- [Intersector](#intersector), Salsiccia
 - [NFB 2026 Convention Web App](#nfb26), Meddaugh
 - [ReVision Fitness](#revision-fitness), Merren
 - [Start Testing](#start-testing), Arndt
@@ -1596,6 +1619,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [vmtest](#vmtest)
 - [WeatherFast](#weatherfast)
 
+### [Sriram Ganesh][dev-ganesh] (1 app) {#by-dev-ganesh}
+
+- [Lumin](#lumin)
+
 ### [Bryan Garaventa][dev-garaventa] (2 apps) {#by-dev-garaventa}
 
 - [AccDC API](#accdc)
@@ -1708,6 +1735,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 ### [Derek Riemer][dev-riemer] (1 app) {#by-dev-riemer}
 
 - [NVDA Add-ons by Derek Riemer](#riemer-addons)
+
+### [Marco Salsiccia][dev-salsiccia] (1 app) {#by-dev-salsiccia}
+
+- [Intersector](#intersector)
 
 ### [Saqib Shaikh][dev-shaikh] (1 app) {#by-dev-shaikh}
 
@@ -1832,6 +1863,8 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [vision-ai-assistant]: https://visionaiassistant.com
 [vmtest]: https://github.com/kellylford/TheWorkBench
 [voiceview]: https://www.amazon.com/b?node=21213727011
+[intersector]: https://apps.apple.com/us/app/intersector/id6777891238
+[lumin]: https://apps.apple.com/app/id6762822189
 [wayaround]: https://apps.apple.com/us/app/wayaround-tag-and-scan/id1294361140
 [weatherfast]: https://apps.apple.com/us/app/weather-fast/id6757891543
 [windows-app-essentials]: https://github.com/josephsl/wintenApps
@@ -1852,6 +1885,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dev-doise]: https://jamalmazrui.github.io/BlindDevelopers/#dev-doise
 [dev-erven]: https://jamalmazrui.github.io/BlindDevelopers/#dev-erven
 [dev-ford]: https://jamalmazrui.github.io/BlindDevelopers/#dev-ford
+[dev-ganesh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-ganesh
 [dev-garaventa]: https://jamalmazrui.github.io/BlindDevelopers/#dev-garaventa
 [dev-gebhard]: https://jamalmazrui.github.io/BlindDevelopers/#dev-gebhard
 [dev-gillespie]: https://jamalmazrui.github.io/BlindDevelopers/#dev-gillespie
@@ -1872,6 +1906,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dev-polykanine]: https://jamalmazrui.github.io/BlindDevelopers/#dev-polykanine
 [dev-raman]: https://jamalmazrui.github.io/BlindDevelopers/#dev-raman
 [dev-riemer]: https://jamalmazrui.github.io/BlindDevelopers/#dev-riemer
+[dev-salsiccia]: https://jamalmazrui.github.io/BlindDevelopers/#dev-salsiccia
 [dev-shaikh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-shaikh
 [dev-spivey]: https://jamalmazrui.github.io/BlindDevelopers/#dev-spivey
 [dev-teh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-teh
