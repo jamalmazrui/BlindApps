@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 99 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 101 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.7.0"
+version: "v1.9.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 99 apps and tools made by 42 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 101 apps and tools made by 43 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,17 +47,17 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 99 apps from 42 developers, an average of 2.4 apps per developer (median 1.5). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 101 apps from 43 developers, an average of 2.3 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, or an AI coding tool.
 
-- Windows only: 32 apps.
+- Windows only: 33 apps.
 - More than one platform: 34 apps.
 - Living inside another program (a screen reader, REAPER, or an AI coding tool): 21 apps.
 - Linux, macOS, and Windows together: 8 apps.
-- Desktop (Linux, macOS, or Windows): 56 apps.
+- Desktop (Linux, macOS, or Windows): 57 apps.
 - Phone or tablet (Android or iOS): 21 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 16 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
@@ -67,11 +67,11 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 52
+- [Windows](#platform-windows): 53
 - [macOS](#platform-macos): 19
 - [iOS](#platform-ios): 18
+- [Web](#platform-web): 14
 - [NVDA](#platform-nvda): 13
-- [Web](#platform-web): 13
 - [Android](#platform-android): 11
 - [Linux](#platform-linux): 10
 - [Claude Code](#platform-claude-code): 4
@@ -91,12 +91,12 @@ Most first; each app has one category.
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 15
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 11
 - [Files and system utilities](#category-files-and-system-utilities): 10
+- [Documents and reading](#category-documents-and-reading): 9
 - [Productivity and daily living](#category-productivity-and-daily-living): 9
-- [Documents and reading](#category-documents-and-reading): 8
 - [Audio and video production](#category-audio-and-video-production): 7
 - [Screen readers and speech](#category-screen-readers-and-speech): 7
+- [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 6
 - [Communication](#category-communication): 6
-- [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 5
 - [AI and visual assistance](#category-ai-and-visual-assistance): 5
 - [Games and game engines](#category-games-and-game-engines): 5
 - [Media and listening](#category-media-and-listening): 5
@@ -107,21 +107,21 @@ Most first; each app has one category.
 
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
-- Using AI while it runs: 10 apps.
-- Built with the help of an AI: 18 apps.
+- Using AI while it runs: 11 apps.
+- Built with the help of an AI: 19 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 71 of the 99 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 73 of the 101 apps; an app written in two languages counts once for each. Most first.
 
 - Python: 22
-- C#: 8
-- Rust: 4
+- C#: 9
+- Rust: 5
+- JavaScript: 4
 - Swift: 4
 - C++: 3
-- JavaScript: 3
+- HTML: 3
 - JAWS scripts: 3
-- HTML: 2
 - Kotlin: 2
 - PowerShell: 2
 - AngelScript: 1
@@ -156,7 +156,7 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 59
+- GitHub: 61
 - Developer website: 26
 - App Store: 7
 - NVDA Community Add-ons: 2
@@ -478,6 +478,16 @@ Lists public FM-DX radio receivers by country, with search and favorites, replac
 - Category: [Media and listening](#category-media-and-listening)
 - Developer: [Dash][dev-dash]
 - Platform: Windows
+
+### [FRAME PDF Studio][frame-pdf-studio] {#frame-pdf-studio}
+
+Lets you fix an inaccessible PDF yourself, in the browser, adding headings, table tags, a sensible reading order and fillable form fields, with no AI in the loop and nothing leaving your computer.
+
+- Available from: GitHub
+- Category: [Accessibility testing and remediation](#category-accessibility-testing-and-remediation)
+- Developer: [Tristen Breitenfeldt][dev-breitenfeldt]
+- Platform: Web
+- Tech: HTML, JavaScript, AI-assisted development (to build)
 
 ## G {#letter-g}
 
@@ -890,6 +900,16 @@ A fast RSS reader built for screen readers, braille displays, and the keyboard, 
 - Tech: Claude (to build), Swift, SwiftUI
 
 ## S {#letter-s}
+
+### [ScanMaster][scanmaster] {#scanmaster}
+
+A word processor, scanner and OCR studio, document reader and audiobook maker for Windows, built from the start for screen readers and the keyboard.
+
+- Available from: GitHub
+- Category: [Documents and reading](#category-documents-and-reading)
+- Developer: [Deenadayalan Moodley][dev-moodley]
+- Platform: Windows
+- Tech: C#, WPF, Rust, AI assistant
 
 ### [ScribeMe][scribeme] {#scribeme}
 
@@ -1324,13 +1344,14 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [evvdroid](#evvdroid), Gillespie
 
-### Web (13 apps) {#platform-web}
+### Web (14 apps) {#platform-web}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [ART (Accessibility Reporting Tool)](#art), Breitenfeldt
 - [CAPTCHA Be Gone](#captcha-be-gone), Toth
 - [The Card Place](#card-place), Ford
+- [FRAME PDF Studio](#frame-pdf-studio), Breitenfeldt
 - [GLOW Accessibility Toolkit](#glow), Bishop
 - [Iridium](#iridium), Polykanine
 - [LWorks Audio Games](#lworks), Erven
@@ -1340,7 +1361,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (52 apps) {#platform-windows}
+### Windows (53 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
@@ -1380,6 +1401,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Quill Radio](#quill-radio), Bishop
 - [Remote Incident Manager](#rim), Campbell
 - [RSS Quick](#rss-quick), Ford
+- [ScanMaster](#scanmaster), Moodley
 - [Sensor Readout](#sensor-readout), Louis
 - [SIC! (Simple Image Converter)](#sic), Polykanine
 - [Sports Scores](#sports-scores), Ford
@@ -1399,11 +1421,12 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 Categories in alphabetical order, each with its apps ordered by title.
 
-### Accessibility testing and remediation (5 apps) {#category-accessibility-testing-and-remediation}
+### Accessibility testing and remediation (6 apps) {#category-accessibility-testing-and-remediation}
 
 - [Accessibility Agents](#accessibility-agents), Arndt and Bishop
 - [ART (Accessibility Reporting Tool)](#art), Breitenfeldt
 - [extCheck](#extcheck), Mazrui
+- [FRAME PDF Studio](#frame-pdf-studio), Breitenfeldt
 - [GLOW Accessibility Toolkit](#glow), Bishop
 - [urlCheck](#urlcheck), Mazrui
 
@@ -1455,7 +1478,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [vmtest](#vmtest), Ford
 - [wx-accessible-webview](#wx-accessible-webview), Arndt
 
-### Documents and reading (8 apps) {#category-documents-and-reading}
+### Documents and reading (9 apps) {#category-documents-and-reading}
 
 - [2htm](#app-2htm), Mazrui
 - [bookFido](#bookfido), Mazrui
@@ -1465,6 +1488,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [QRead](#qread), Toth
 - [Quill](#quill), Bishop and Arndt
 - [RSS Quick](#rss-quick), Ford
+- [ScanMaster](#scanmaster), Moodley
 
 ### Education and training (2 apps) {#category-education-and-training}
 
@@ -1576,9 +1600,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [BrailleBlaster](#brailleblaster)
 - [Liblouis](#liblouis)
 
-### [Tristen Breitenfeldt][dev-breitenfeldt] (1 app) {#by-dev-breitenfeldt}
+### [Tristen Breitenfeldt][dev-breitenfeldt] (2 apps) {#by-dev-breitenfeldt}
 
 - [ART (Accessibility Reporting Tool)](#art)
+- [FRAME PDF Studio](#frame-pdf-studio)
 
 ### [Matt Campbell][dev-campbell] (2 apps) {#by-dev-campbell}
 
@@ -1710,6 +1735,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 
 - [ReVision Fitness](#revision-fitness)
 
+### [Deenadayalan Moodley][dev-moodley] (1 app) {#by-dev-moodley}
+
+- [ScanMaster](#scanmaster)
+
 ### [Mark Morad][dev-morad] (1 app) {#by-dev-morad}
 
 - [ScribeMe](#scribeme)
@@ -1777,6 +1806,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [github-downloader]: https://github.com/GianlucaApollaro/Github-Downloader
 [acb-link]: https://link.acb.org/
 [accdc]: https://github.com/WhatSock/accdc
+[scanmaster]: https://github.com/DeenadayalanMoodley/ScanMaster-releases/releases
 [tsg]: https://github.com/WhatSock/tsg
 [accessibility-agents]: https://github.com/Community-Access/accessibility-agents
 [accessible-live-captions]: https://github.com/kellylford/LiveCaptionsWithAccessibility/releases
@@ -1803,6 +1833,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [filedentify]: https://github.com/OnjLouis/FileDentify/releases/tag/v1.1
 [filedir]: https://github.com/JamalMazrui/FileDir
 [fmdx-servers-lister]: https://tdprograms.ovh/pfiles/FmdxServersLister.rar
+[frame-pdf-studio]: https://github.com/ripplelearning/Frame-PDF-Studio
 [ghmanage]: https://github.com/kellylford/GHManage
 [glow]: https://bits-acb.org/
 [graphiti]: https://www.aph.org/
@@ -1900,6 +1931,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dev-mazrui]: https://jamalmazrui.github.io/BlindDevelopers/#dev-mazrui
 [dev-meddaugh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-meddaugh
 [dev-merren]: https://jamalmazrui.github.io/BlindDevelopers/#dev-merren
+[dev-moodley]: https://jamalmazrui.github.io/BlindDevelopers/#dev-moodley
 [dev-morad]: https://jamalmazrui.github.io/BlindDevelopers/#dev-morad
 [dev-mulcahy]: https://jamalmazrui.github.io/BlindDevelopers/#dev-mulcahy
 [dev-perry]: https://jamalmazrui.github.io/BlindDevelopers/#dev-perry
