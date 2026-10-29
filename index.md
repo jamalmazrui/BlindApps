@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 101 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 125 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.9.0"
+version: "v1.10.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 101 apps and tools made by 43 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 125 apps and tools made by 43 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,19 +47,19 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 101 apps from 43 developers, an average of 2.3 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 125 apps from 43 developers, an average of 2.9 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
-A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, or an AI coding tool.
+A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
-- Windows only: 33 apps.
-- More than one platform: 34 apps.
-- Living inside another program (a screen reader, REAPER, or an AI coding tool): 21 apps.
+- Windows only: 42 apps.
+- More than one platform: 38 apps.
+- Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 33 apps.
 - Linux, macOS, and Windows together: 8 apps.
-- Desktop (Linux, macOS, or Windows): 57 apps.
+- Desktop (Linux, macOS, or Windows): 69 apps.
 - Phone or tablet (Android or iOS): 21 apps, of which 8 run on both.
-- Screen reader extensions (JAWS scripts and NVDA add-ons): 16 apps.
+- Screen reader extensions (JAWS scripts and NVDA add-ons): 27 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
 - Co-created by two developers in this directory: 4 apps.
 
@@ -67,16 +67,17 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 53
-- [macOS](#platform-macos): 19
+- [Windows](#platform-windows): 65
+- [NVDA](#platform-nvda): 24
+- [macOS](#platform-macos): 22
 - [iOS](#platform-ios): 18
-- [Web](#platform-web): 14
-- [NVDA](#platform-nvda): 13
+- [Web](#platform-web): 15
 - [Android](#platform-android): 11
 - [Linux](#platform-linux): 10
 - [Claude Code](#platform-claude-code): 4
 - [JAWS](#platform-jaws): 3
 - [GitHub Copilot](#platform-github-copilot): 2
+- [Ableton Move](#platform-ableton-move): 1
 - [Codex CLI](#platform-codex-cli): 1
 - [Fire OS](#platform-fire-os): 1
 - [Gemini CLI](#platform-gemini-cli): 1
@@ -88,33 +89,33 @@ Most first; an app on several platforms counts once for each.
 
 Most first; each app has one category.
 
-- [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 15
+- [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 19
+- [Audio and video production](#category-audio-and-video-production): 13
+- [Files and system utilities](#category-files-and-system-utilities): 13
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 11
-- [Files and system utilities](#category-files-and-system-utilities): 10
-- [Documents and reading](#category-documents-and-reading): 9
-- [Productivity and daily living](#category-productivity-and-daily-living): 9
-- [Audio and video production](#category-audio-and-video-production): 7
-- [Screen readers and speech](#category-screen-readers-and-speech): 7
+- [Documents and reading](#category-documents-and-reading): 11
+- [Productivity and daily living](#category-productivity-and-daily-living): 11
+- [Screen readers and speech](#category-screen-readers-and-speech): 11
 - [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 6
 - [Communication](#category-communication): 6
+- [Media and listening](#category-media-and-listening): 6
 - [AI and visual assistance](#category-ai-and-visual-assistance): 5
 - [Games and game engines](#category-games-and-game-engines): 5
-- [Media and listening](#category-media-and-listening): 5
 - [Braille and tactile](#category-braille-and-tactile): 4
-- [Education and training](#category-education-and-training): 2
+- [Education and training](#category-education-and-training): 4
 
 ### AI {#stats-ai}
 
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
-- Using AI while it runs: 11 apps.
+- Using AI while it runs: 13 apps.
 - Built with the help of an AI: 19 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 73 of the 101 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 85 of the 125 apps; an app written in two languages counts once for each. Most first.
 
-- Python: 22
+- Python: 29
 - C#: 9
 - Rust: 5
 - JavaScript: 4
@@ -138,27 +139,31 @@ Counted from the Tech field, which is filled in for 73 of the 101 apps; an app w
 Engines, frameworks, and services from the Tech field that appear in two or more apps. Most first.
 
 - Claude (to build): 14
-- .NET Framework: 6
+- .NET Framework: 7
 - AI vision models: 4
 - Microsoft Edge: 4
-- SwiftUI: 3
 - wxPython: 4
+- SwiftUI: 3
+- .NET Windows Forms: 2
+- AI-assisted development (to build): 2
 - ARIA: 2
 - Chrome DevTools Protocol: 2
+- ElevenLabs AI: 2
 - FFmpeg: 2
 - Hyper-V: 2
 - Markdown agent files: 2
 - Microsoft Office: 2
 - Progressive web app: 2
+- WPF: 2
 - wxDragon: 2
 
 ### Where the apps are available {#stats-source}
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 61
-- Developer website: 26
-- App Store: 7
+- GitHub: 80
+- Developer website: 31
+- App Store: 9
 - NVDA Community Add-ons: 2
 - Google Play: 1
 - Microsoft Store: 1
@@ -168,10 +173,11 @@ Counted by each app's main link. GitHub links usually mean the source code is pu
 
 Developers with three or more apps here, most first.
 
+- [Andre "Onj" Louis](#by-dev-louis): 25
 - [Kelly Ford](#by-dev-ford): 11
 - [Jamal Mazrui](#by-dev-mazrui): 11
+- [Tony Gebhard](#by-dev-gebhard): 7
 - [Quin Gillespie](#by-dev-gillespie): 6
-- [Andre "Onj" Louis](#by-dev-louis): 6
 - [Taylor Arndt](#by-dev-arndt): 5
 - [Jeff Bishop](#by-dev-bishop): 4
 - [Joseph Lee](#by-dev-jlee): 4
@@ -284,6 +290,25 @@ Recovers song files from old versions of the Cubase music program as standard MI
 - Developer: [Andre "Onj" Louis][dev-louis]
 - Platform: Windows
 
+### [American Explorer][american-explorer] {#american-explorer}
+
+A free audio guide to the fifty US states, the District of Columbia, and five territories, with browsing by region, a quiz on capitals and nicknames, and a tool to compare any two.
+
+- Available from: Developer website
+- Category: [Education and training](#category-education-and-training)
+- Developer: [Tony Gebhard][dev-gebhard]
+- Platform: Windows
+- Tech: Windows speech (SAPI)
+
+### [Apollo II for NVDA][apollo-ii-nvda] {#apollo-ii-nvda}
+
+Brings local UK English speech to NVDA, either as the original Apollo II Reborn voice or calibrated against a Dolphin Juno, with tone controls and optional commands inside the text.
+
+- Available from: GitHub
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+
 ### [ART (Accessibility Reporting Tool)][art] {#art}
 
 A local-first, keyboard-friendly workspace for recording accessibility findings against WCAG and exporting reports to Word, Excel, PDF, and HTML.
@@ -386,6 +411,16 @@ A very fast command-line tool that reports detailed statistics about a codebase 
 
 ## D {#letter-d}
 
+### [Date Parser][date-parser] {#date-parser}
+
+Turns plain-English date expressions, such as counted weekdays or offsets of hours and days, into concrete dates inside NVDA.
+
+- Available from: GitHub
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
+
 ### [DbDo][dbdo] {#dbdo}
 
 Manages SQLite, Access, Excel, and other databases from the keyboard as lists you move through cell by cell or with a dot prompt for commands and SQL.
@@ -407,6 +442,26 @@ An editor for text and program code, in use since 2007, that speaks the result o
 - Developer: [Jamal Mazrui][dev-mazrui]
 - Platform: Windows
 - Tech: C#, Claude (to build), .NET Framework
+
+### [ElevenLabs Music and Sound FX Generator][elevenlabs-music] {#elevenlabs-music}
+
+An accessible app for making music and sound effects with your own ElevenLabs account, with reusable prompts, editable composition plans and lyrics, and resumable batches.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: macOS, Windows
+- Tech: ElevenLabs AI
+
+### [ElevenLabs Speech Generator][elevenlabs-speech] {#elevenlabs-speech}
+
+An accessible app for speech and dialogue, transcription, voice conversion, and automatic dubbing through your own ElevenLabs account.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: macOS, Windows
+- Tech: ElevenLabs AI, .NET Framework
 
 ### [Emacspeak][emacspeak] {#emacspeak}
 
@@ -439,6 +494,26 @@ Checks Word, Excel, PowerPoint, and Markdown files, a whole folder at a time, ag
 - Tech: C#, Claude (to build), Microsoft Office, .NET Framework
 
 ## F {#letter-f}
+
+### [Fanfic Downloader][fanfic-downloader] {#fanfic-downloader}
+
+Downloads stories from Archive of Our Own, FanFiction.net, and FictionPress as cleaned EPUB books, retrying failed stories and handling duplicates.
+
+- Available from: GitHub
+- Category: [Documents and reading](#category-documents-and-reading)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Windows
+- Tech: FanFicFare
+
+### [FastRead][fastread] {#fastread}
+
+Makes NVDA speak frequently changing text at once, such as meters, progress text, and terminal output, with watchers for pinned values.
+
+- Available from: GitHub
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
 
 ### [Fedra][fedra] {#fedra}
 
@@ -686,6 +761,15 @@ Cleans up MIDI files in an accessible window or from the command line.
 - Platform: Windows
 - Tech: .NET Windows Forms
 
+### [MidiToMove][miditomove] {#miditomove}
+
+Converts standard MIDI files into Ableton Move and Ableton Note sets, keeping tempo, track names, notes, and note lengths.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Windows
+
 ### [Mini Load][mini-load] {#mini-load}
 
 A light, keyboard-friendly downloader for media from popular sites.
@@ -695,6 +779,26 @@ A light, keyboard-friendly downloader for media from popular sites.
 - Developer: [Dash][dev-dash]
 - Platform: Windows
 - Tech: C#, FFmpeg, yt-dlp
+
+### [Minuter][minuter] {#minuter}
+
+Gives NVDA users optional time cues while they work, such as second ticks, minute chimes, and spoken seconds.
+
+- Available from: GitHub
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
+
+### [MoveToMidi][movetomidi] {#movetomidi}
+
+Converts Ableton Move and Ableton Note sets into standard MIDI files, keeping notes, velocities, tempo, time signature, and track names.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Windows
+- Tech: .NET Windows Forms
 
 ## N {#letter-n}
 
@@ -706,6 +810,16 @@ Reports which Native Instruments music products and serial numbers are on a comp
 - Category: [Audio and video production](#category-audio-and-video-production)
 - Developer: [Andre "Onj" Louis][dev-louis]
 - Platform: macOS, Windows
+
+### [News Fusion][news-fusion] {#news-fusion}
+
+A UK-focused news feed reader for NVDA with a fast tree of headlines and clean article text where available.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
 
 ### [NFB 2026 Convention Web App][nfb26] {#nfb26}
 
@@ -746,6 +860,16 @@ Teaches NVDA commands from inside NVDA through 45 guided, hands-on lessons with 
 - Platform: NVDA
 - Tech: Python
 
+### [NVDA Composer][nvda-composer] {#nvda-composer}
+
+A keyboard-first music sketchpad for NVDA, with note entry, playback, and saving, plus a separate web version for people without NVDA.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA, Web
+- Tech: Python
+
 ### [NVDA Remote][nvda-remote] {#nvda-remote}
 
 Controls another computer with NVDA, and became part of NVDA itself in 2025.
@@ -755,6 +879,15 @@ Controls another computer with NVDA, and became part of NVDA itself in 2025.
 - Developers: [Tyler Spivey][dev-spivey] and [Christopher "Q" Toth][dev-toth]
 - Platform: NVDA
 - Tech: Python
+
+### [NVDA Sync][nvda-sync] {#nvda-sync}
+
+A portable Windows utility that copies chosen NVDA configuration parts from one main NVDA folder to as many as five installed or portable copies.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Windows
 
 ### [NVGT][nvgt] {#nvgt}
 
@@ -818,6 +951,33 @@ A Markdown reader for reviewing the long plans written by AI coding tools, with 
 - Category: [Documents and reading](#category-documents-and-reading)
 - Developer: [André Polykanine][dev-polykanine]
 - Platform: Windows
+
+### [PortableApps Sync][portableapps-sync] {#portableapps-sync}
+
+Keeps the apps in several PortableApps installations aligned, finding the most recently updated copy, previewing changes, and syncing after updates finish.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Windows
+
+### [The Prompt Vault][prompt-vault] {#prompt-vault}
+
+A free system-tray library of more than 500 AI prompts, each with a plain-language description and labeled edit fields for its blanks, ready to copy into a chatbot.
+
+- Available from: Developer website
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Tony Gebhard][dev-gebhard]
+- Platform: Windows
+
+### [Prose 2000][prose-2000] {#prose-2000}
+
+Brings the vintage Telesensory Systems Prose 2000 speech synthesizer to modern NVDA by running its original firmware in an isolated host.
+
+- Available from: GitHub
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
 
 ## Q {#letter-q}
 
@@ -901,6 +1061,24 @@ A fast RSS reader built for screen readers, braille displays, and the keyboard, 
 
 ## S {#letter-s}
 
+### [Samsung Galaxy Voices][samsung-galaxy-voices] {#samsung-galaxy-voices}
+
+Lets NVDA speak with downloadable Samsung Galaxy voices, managed from an accessible settings panel, with signed updates.
+
+- Available from: GitHub
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+
+### [Samsung TV Voices][samsung-tv-voices] {#samsung-tv-voices}
+
+Lets NVDA speak with downloadable Samsung TV voices, managed from an accessible settings panel with background downloads and signed updates.
+
+- Available from: GitHub
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+
 ### [ScanMaster][scanmaster] {#scanmaster}
 
 A word processor, scanner and OCR studio, document reader and audiobook maker for Windows, built from the start for screen readers and the keyboard.
@@ -958,6 +1136,25 @@ Converts, resizes, and crops images in batches across eight formats, from a wind
 - Category: [Files and system utilities](#category-files-and-system-utilities)
 - Developer: [André Polykanine][dev-polykanine]
 - Platform: Windows
+
+### [SignalScope][signalscope] {#signalscope}
+
+A system dashboard module for Schwung on the Ableton Move, covering processor, memory, storage, network, WiFi, and uptime, with an optional orchestra driven by the readings.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: Ableton Move
+
+### [soundWave][soundwave] {#soundwave}
+
+Renders clipboard text, typed text, files, or folders to WAV, MP3, FLAC, or M4A audio through the speech synthesizers NVDA supports, with batch processing.
+
+- Available from: GitHub
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
 
 ### [Sports Scores][sports-scores] {#sports-scores}
 
@@ -1042,6 +1239,24 @@ A lightweight screen reader for macOS and Linux terminals.
 A keyboard-first soundboard and playout desk for podcasts, radio, and live shows, with recording and streaming.
 
 - Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Tony Gebhard][dev-gebhard]
+- Platform: macOS, Windows
+
+### [TG Imprint][tg-imprint] {#tg-imprint}
+
+A free, MIT-licensed writer, in open beta, that saves only tagged PDFs with real headings, lists, and picture descriptions, fills in PDF forms from a list, and rebuilds other people's PDFs as accessible ones.
+
+- Available from: Developer website
+- Category: [Documents and reading](#category-documents-and-reading)
+- Developer: [Tony Gebhard][dev-gebhard]
+- Platform: Windows
+
+### [TG Spaces][tg-spaces] {#tg-spaces}
+
+A free convolution reverb plugin with 190 rooms modeled from their acoustics, which since version 1.1 places each side of a stereo mix as its own source in the room.
+
+- Available from: Developer website
 - Category: [Audio and video production](#category-audio-and-video-production)
 - Developer: [Tony Gebhard][dev-gebhard]
 - Platform: macOS, Windows
@@ -1161,6 +1376,16 @@ A clutter-free weather app built by and for screen reader users, with conditions
 - Platform: iOS, Web, Windows
 - Tech: HTML, JavaScript, Open-Meteo, Python, Swift, SwiftUI, wxPython
 
+### [WikiFusion][wikifusion] {#wikifusion}
+
+Looks up Wikipedia and Wiktionary in one NVDA dialog, with smart routing, a tree of results, and optional media playback.
+
+- Available from: GitHub
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: NVDA
+- Tech: Python
+
 ### [Windows App Essentials][windows-app-essentials] {#windows-app-essentials}
 
 Improves NVDA access to the apps built into Windows.
@@ -1170,6 +1395,15 @@ Improves NVDA access to the apps built into Windows.
 - Developer: [Joseph Lee][dev-jlee]
 - Platform: NVDA
 - Tech: Python
+
+### [Word Champion][word-champion] {#word-champion}
+
+Five word games, fifty typing lessons, a talking dictionary, and a journal for blind and low-vision learners of any age, speaking through the screen reader or the Windows voice; a paid program with a 14-day free trial.
+
+- Available from: Developer website
+- Category: [Education and training](#category-education-and-training)
+- Developer: [Tony Gebhard][dev-gebhard]
+- Platform: Windows
 
 ### [wx-accessible-webview][wx-accessible-webview] {#wx-accessible-webview}
 
@@ -1215,6 +1449,10 @@ JAWS scripts that make Zoom meetings easier to run and join, with sound cues for
 ## Apps by Platform {#apps-by-platform}
 
 Platforms in alphabetical order, each with its apps ordered by title. An app on several platforms appears under each.
+
+### Ableton Move (1 app) {#platform-ableton-move}
+
+- [SignalScope](#signalscope), Louis
 
 ### Android (11 apps) {#platform-android}
 
@@ -1298,12 +1536,14 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [tdsr](#tdsr), Spivey
 - [TTCom](#ttcom), Doug Lee
 
-### macOS (19 apps) {#platform-macos}
+### macOS (22 apps) {#platform-macos}
 
 - [AccessKit](#accesskit), Campbell
 - [BrailleBlaster](#brailleblaster), Boyer
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
+- [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
+- [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
 - [Emacspeak](#emacspeak), Raman
 - [GHManage](#ghmanage), Ford
 - [Image Description Toolkit](#image-description-toolkit), Ford
@@ -1317,23 +1557,35 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [RSS Quick](#rss-quick), Ford
 - [tdsr](#tdsr), Spivey
 - [TG Drop Deck](#tg-drop-deck), Gebhard
+- [TG Spaces](#tg-spaces), Gebhard
 - [TTCom](#ttcom), Doug Lee
 - [VAL: Voice, Alarm & Chimes](#val), Williams
 
-### NVDA (13 apps) {#platform-nvda}
+### NVDA (24 apps) {#platform-nvda}
 
 - [Add-on Updater](#addon-updater), Joseph Lee
 - [AI Content Describer](#ai-content-describer), Temm
+- [Apollo II for NVDA](#apollo-ii-nvda), Louis
 - [BrowserNav](#browsernav), Malykh
+- [Date Parser](#date-parser), Louis
+- [FastRead](#fastread), Louis
 - [HomerView](#homerview), Mazrui
 - [IndentNav](#indentnav), Malykh
+- [Minuter](#minuter), Louis
+- [News Fusion](#news-fusion), Louis
 - [NVDA Add-ons by Derek Riemer](#riemer-addons), Riemer
 - [NVDA Coach](#nvda-coach), Gebhard
+- [NVDA Composer](#nvda-composer), Louis
 - [NVDA Remote](#nvda-remote), Spivey and Toth
+- [Prose 2000](#prose-2000), Louis
 - [Resource Monitor](#resource-monitor), Joseph Lee
+- [Samsung Galaxy Voices](#samsung-galaxy-voices), Louis
+- [Samsung TV Voices](#samsung-tv-voices), Louis
 - [SentenceNav](#sentencenav), Malykh
+- [soundWave](#soundwave), Louis
 - [StationPlaylist](#stationplaylist), Joseph Lee
 - [Tony's Enhancements](#tonys-enhancements), Malykh
+- [WikiFusion](#wikifusion), Louis
 - [Windows App Essentials](#windows-app-essentials), Joseph Lee
 
 ### REAPER (1 app) {#platform-reaper}
@@ -1344,7 +1596,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [evvdroid](#evvdroid), Gillespie
 
-### Web (14 apps) {#platform-web}
+### Web (15 apps) {#platform-web}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
@@ -1356,17 +1608,19 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Iridium](#iridium), Polykanine
 - [LWorks Audio Games](#lworks), Erven
 - [NFB 2026 Convention Web App](#nfb26), Meddaugh
+- [NVDA Composer](#nvda-composer), Louis
 - [Start Testing](#start-testing), Arndt
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (53 apps) {#platform-windows}
+### Windows (65 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
 - [AccessKit](#accesskit), Campbell
 - [AllToMidi](#alltomidi), Louis
+- [American Explorer](#american-explorer), Gebhard
 - [bookFido](#bookfido), Mazrui
 - [BrailleBlaster](#brailleblaster), Boyer
 - [BrailleKeyboard](#braillekeyboard), Adams
@@ -1374,7 +1628,10 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Codestats](#codestats), Gillespie
 - [DbDo](#dbdo), Mazrui
 - [EdSharp](#edsharp), Mazrui
+- [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
+- [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
 - [extCheck](#extcheck), Mazrui
+- [Fanfic Downloader](#fanfic-downloader), Louis
 - [Fedra](#fedra), Gillespie
 - [FileDentify](#filedentify), Louis
 - [FileDir](#filedir), Mazrui
@@ -1389,12 +1646,17 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Liblouis](#liblouis), Boyer
 - [LWorks Audio Games](#lworks), Erven
 - [MidiCleaner](#midicleaner), Louis
+- [MidiToMove](#miditomove), Louis
 - [Mini Load](#mini-load), Dash
+- [MoveToMidi](#movetomidi), Louis
 - [Native Serials](#native-serials), Louis
 - [NVDA](#nvda), Curran and Teh
+- [NVDA Sync](#nvda-sync), Louis
 - [NVGT](#nvgt), Tupy
 - [Paperback](#paperback), Gillespie
 - [PlanCake](#plancake), Polykanine
+- [PortableApps Sync](#portableapps-sync), Louis
+- [The Prompt Vault](#prompt-vault), Gebhard
 - [QRead](#qread), Toth
 - [QuickMail](#quickmail), Ford
 - [Quill](#quill), Bishop and Arndt
@@ -1409,12 +1671,15 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [taskmon](#taskmon), Gillespie
 - [TD Sound Manager](#td-sound-manager), Dash
 - [TG Drop Deck](#tg-drop-deck), Gebhard
+- [TG Imprint](#tg-imprint), Gebhard
+- [TG Spaces](#tg-spaces), Gebhard
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [TTCom](#ttcom), Doug Lee
 - [urlCheck](#urlcheck), Mazrui
 - [urlFido](#urlfido), Mazrui
 - [vmtest](#vmtest), Ford
 - [WeatherFast](#weatherfast), Ford
+- [Word Champion](#word-champion), Gebhard
 - [wx-accessible-webview](#wx-accessible-webview), Arndt
 
 ## Apps by Category {#apps-by-category}
@@ -1438,14 +1703,20 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Seeing AI](#seeing-ai), Shaikh
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 
-### Audio and video production (7 apps) {#category-audio-and-video-production}
+### Audio and video production (13 apps) {#category-audio-and-video-production}
 
 - [AllToMidi](#alltomidi), Louis
+- [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
+- [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
 - [HomerScribe](#homerscribe), Mazrui
 - [MidiCleaner](#midicleaner), Louis
+- [MidiToMove](#miditomove), Louis
+- [MoveToMidi](#movetomidi), Louis
 - [Native Serials](#native-serials), Louis
+- [NVDA Composer](#nvda-composer), Louis
 - [OSARA](#osara), Teh
 - [TG Drop Deck](#tg-drop-deck), Gebhard
+- [TG Spaces](#tg-spaces), Gebhard
 - [zEdit](#zedit), Karaca
 
 ### Braille and tactile (4 apps) {#category-braille-and-tactile}
@@ -1478,32 +1749,39 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [vmtest](#vmtest), Ford
 - [wx-accessible-webview](#wx-accessible-webview), Arndt
 
-### Documents and reading (9 apps) {#category-documents-and-reading}
+### Documents and reading (11 apps) {#category-documents-and-reading}
 
 - [2htm](#app-2htm), Mazrui
 - [bookFido](#bookfido), Mazrui
 - [EdSharp](#edsharp), Mazrui
+- [Fanfic Downloader](#fanfic-downloader), Louis
 - [Paperback](#paperback), Gillespie
 - [PlanCake](#plancake), Polykanine
 - [QRead](#qread), Toth
 - [Quill](#quill), Bishop and Arndt
 - [RSS Quick](#rss-quick), Ford
 - [ScanMaster](#scanmaster), Moodley
+- [TG Imprint](#tg-imprint), Gebhard
 
-### Education and training (2 apps) {#category-education-and-training}
+### Education and training (4 apps) {#category-education-and-training}
 
+- [American Explorer](#american-explorer), Gebhard
 - [NVDA Coach](#nvda-coach), Gebhard
 - [TifloAcosta App](#tifloacosta-app), Acosta
+- [Word Champion](#word-champion), Gebhard
 
-### Files and system utilities (10 apps) {#category-files-and-system-utilities}
+### Files and system utilities (13 apps) {#category-files-and-system-utilities}
 
 - [Clipman](#clipman), Louis
 - [FileDentify](#filedentify), Louis
 - [FileDir](#filedir), Mazrui
 - [Hyper-V Manage](#hyperv-manage), Ford
+- [NVDA Sync](#nvda-sync), Louis
+- [PortableApps Sync](#portableapps-sync), Louis
 - [Remote Incident Manager](#rim), Campbell
 - [Sensor Readout](#sensor-readout), Louis
 - [SIC! (Simple Image Converter)](#sic), Polykanine
+- [SignalScope](#signalscope), Louis
 - [taskmon](#taskmon), Gillespie
 - [TD Sound Manager](#td-sound-manager), Dash
 - [urlFido](#urlfido), Mazrui
@@ -1516,51 +1794,62 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [nvgt-bridge](#nvgt-bridge), Gillespie
 - [Survive the Wild](#survive-the-wild), Tupy
 
-### Media and listening (5 apps) {#category-media-and-listening}
+### Media and listening (6 apps) {#category-media-and-listening}
 
 - [ACB Link](#acb-link), Doise
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [Mini Load](#mini-load), Dash
+- [News Fusion](#news-fusion), Louis
 - [Quill Radio](#quill-radio), Bishop
 - [Sports Scores](#sports-scores), Ford
 
-### Productivity and daily living (9 apps) {#category-productivity-and-daily-living}
+### Productivity and daily living (11 apps) {#category-productivity-and-daily-living}
 
 - [CAPTCHA Be Gone](#captcha-be-gone), Toth
+- [Date Parser](#date-parser), Louis
 - [DbDo](#dbdo), Mazrui
 - [Intersector](#intersector), Salsiccia
 - [NFB 2026 Convention Web App](#nfb26), Meddaugh
+- [The Prompt Vault](#prompt-vault), Gebhard
 - [ReVision Fitness](#revision-fitness), Merren
 - [Start Testing](#start-testing), Arndt
 - [VAL: Voice, Alarm & Chimes](#val), Williams
 - [WayAround](#wayaround), Doise
 - [WeatherFast](#weatherfast), Ford
 
-### Screen reader add-ons and scripts (15 apps) {#category-screen-reader-add-ons-and-scripts}
+### Screen reader add-ons and scripts (19 apps) {#category-screen-reader-add-ons-and-scripts}
 
 - [Add-on Updater](#addon-updater), Joseph Lee
 - [AI Content Describer](#ai-content-describer), Temm
 - [BrowserNav](#browsernav), Malykh
+- [FastRead](#fastread), Louis
 - [HomerView](#homerview), Mazrui
 - [IndentNav](#indentnav), Malykh
 - [J-Say](#jsay), Hartgen
 - [Leasey](#leasey), Hartgen
+- [Minuter](#minuter), Louis
 - [NVDA Add-ons by Derek Riemer](#riemer-addons), Riemer
 - [NVDA Remote](#nvda-remote), Spivey and Toth
 - [Resource Monitor](#resource-monitor), Joseph Lee
 - [SentenceNav](#sentencenav), Malykh
+- [soundWave](#soundwave), Louis
 - [StationPlaylist](#stationplaylist), Joseph Lee
 - [Tony's Enhancements](#tonys-enhancements), Malykh
+- [WikiFusion](#wikifusion), Louis
 - [Windows App Essentials](#windows-app-essentials), Joseph Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
 
-### Screen readers and speech (7 apps) {#category-screen-readers-and-speech}
+### Screen readers and speech (11 apps) {#category-screen-readers-and-speech}
 
+- [Apollo II for NVDA](#apollo-ii-nvda), Louis
 - [ClaudeSpeak](#claudespeak), Ford
 - [Emacspeak](#emacspeak), Raman
 - [evvdroid](#evvdroid), Gillespie
 - [JAWS](#jaws), Gordon
 - [NVDA](#nvda), Curran and Teh
+- [Prose 2000](#prose-2000), Louis
+- [Samsung Galaxy Voices](#samsung-galaxy-voices), Louis
+- [Samsung TV Voices](#samsung-tv-voices), Louis
 - [tdsr](#tdsr), Spivey
 - [VoiceView](#voiceview), Mulcahy
 
@@ -1653,10 +1942,15 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [AccDC API](#accdc)
 - [AccDC Technical Style Guide](#tsg)
 
-### [Tony Gebhard][dev-gebhard] (2 apps) {#by-dev-gebhard}
+### [Tony Gebhard][dev-gebhard] (7 apps) {#by-dev-gebhard}
 
+- [American Explorer](#american-explorer)
 - [NVDA Coach](#nvda-coach)
+- [The Prompt Vault](#prompt-vault)
 - [TG Drop Deck](#tg-drop-deck)
+- [TG Imprint](#tg-imprint)
+- [TG Spaces](#tg-spaces)
+- [Word Champion](#word-champion)
 
 ### [Quin Gillespie][dev-gillespie] (6 apps) {#by-dev-gillespie}
 
@@ -1693,14 +1987,33 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [StationPlaylist](#stationplaylist)
 - [Windows App Essentials](#windows-app-essentials)
 
-### [Andre "Onj" Louis][dev-louis] (6 apps) {#by-dev-louis}
+### [Andre "Onj" Louis][dev-louis] (25 apps) {#by-dev-louis}
 
 - [AllToMidi](#alltomidi)
+- [Apollo II for NVDA](#apollo-ii-nvda)
 - [Clipman](#clipman)
+- [Date Parser](#date-parser)
+- [ElevenLabs Music and Sound FX Generator](#elevenlabs-music)
+- [ElevenLabs Speech Generator](#elevenlabs-speech)
+- [Fanfic Downloader](#fanfic-downloader)
+- [FastRead](#fastread)
 - [FileDentify](#filedentify)
 - [MidiCleaner](#midicleaner)
+- [MidiToMove](#miditomove)
+- [Minuter](#minuter)
+- [MoveToMidi](#movetomidi)
 - [Native Serials](#native-serials)
+- [News Fusion](#news-fusion)
+- [NVDA Composer](#nvda-composer)
+- [NVDA Sync](#nvda-sync)
+- [PortableApps Sync](#portableapps-sync)
+- [Prose 2000](#prose-2000)
+- [Samsung Galaxy Voices](#samsung-galaxy-voices)
+- [Samsung TV Voices](#samsung-tv-voices)
 - [Sensor Readout](#sensor-readout)
+- [SignalScope](#signalscope)
+- [soundWave](#soundwave)
+- [WikiFusion](#wikifusion)
 
 ### [Stephen Lovely][dev-lovely] (1 app) {#by-dev-lovely}
 
@@ -1903,6 +2216,30 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [zedit]: https://apps.apple.com/us/app/zedit/id6768833999
 [zerogram]: https://apps.apple.com/us/app/zerogram/id6792581455
 [zoom-meetings]: https://hartgenconsultancy.com/zoom-professional-scripts/
+[american-explorer]: https://tgstudios.app/american-explorer/
+[prompt-vault]: https://tgstudios.app/prompt-vault/
+[tg-imprint]: https://tgstudios.app/tg-imprint/
+[tg-spaces]: https://tgstudios.app/spaces/
+[word-champion]: https://tgstudios.app/word-champion/
+[apollo-ii-nvda]: https://github.com/OnjLouis/apolloJuno/releases
+[date-parser]: https://github.com/OnjLouis/dateParser/releases
+[elevenlabs-music]: https://github.com/OnjLouis/ElevenLabsMusicGenerator
+[elevenlabs-speech]: https://github.com/OnjLouis/ElevenLabsSpeechGenerator/releases
+[fanfic-downloader]: https://github.com/OnjLouis/fanfic-downloader/releases
+[fastread]: https://github.com/OnjLouis/fastRead/releases
+[miditomove]: https://github.com/OnjLouis/MidiToMove/releases
+[minuter]: https://github.com/OnjLouis/Minuter/releases
+[movetomidi]: https://github.com/OnjLouis/MoveToMidi/releases
+[news-fusion]: https://github.com/OnjLouis/newsFusion/releases
+[nvda-composer]: https://github.com/OnjLouis/nvdaComposer/releases
+[nvda-sync]: https://github.com/OnjLouis/NVDASync/releases
+[portableapps-sync]: https://github.com/OnjLouis/PortableAppsSync/releases
+[prose-2000]: https://github.com/OnjLouis/prose2000/releases
+[samsung-galaxy-voices]: https://github.com/OnjLouis/samsungGalaxyVoices/releases
+[samsung-tv-voices]: https://github.com/OnjLouis/samsungTVVoices/releases
+[signalscope]: https://github.com/OnjLouis/schwung-signalscope/releases
+[soundwave]: https://github.com/OnjLouis/soundWave/releases
+[wikifusion]: https://github.com/OnjLouis/wikiFusion/releases
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
 [dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
