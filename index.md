@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 125 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 131 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.10.0"
+version: "v1.11.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 125 apps and tools made by 43 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 131 apps and tools made by 44 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,18 +47,18 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 125 apps from 43 developers, an average of 2.9 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 131 apps from 44 developers, an average of 3.0 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
-- Windows only: 42 apps.
-- More than one platform: 38 apps.
+- Windows only: 43 apps.
+- More than one platform: 40 apps.
 - Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 33 apps.
-- Linux, macOS, and Windows together: 8 apps.
-- Desktop (Linux, macOS, or Windows): 69 apps.
-- Phone or tablet (Android or iOS): 21 apps, of which 8 run on both.
+- Linux, macOS, and Windows together: 10 apps.
+- Desktop (Linux, macOS, or Windows): 72 apps.
+- Phone or tablet (Android or iOS): 24 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 27 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
 - Co-created by two developers in this directory: 4 apps.
@@ -67,13 +67,13 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 65
+- [Windows](#platform-windows): 68
+- [macOS](#platform-macos): 24
 - [NVDA](#platform-nvda): 24
-- [macOS](#platform-macos): 22
-- [iOS](#platform-ios): 18
+- [iOS](#platform-ios): 19
 - [Web](#platform-web): 15
-- [Android](#platform-android): 11
-- [Linux](#platform-linux): 10
+- [Android](#platform-android): 13
+- [Linux](#platform-linux): 12
 - [Claude Code](#platform-claude-code): 4
 - [JAWS](#platform-jaws): 3
 - [GitHub Copilot](#platform-github-copilot): 2
@@ -92,14 +92,14 @@ Most first; each app has one category.
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 19
 - [Audio and video production](#category-audio-and-video-production): 13
 - [Files and system utilities](#category-files-and-system-utilities): 13
-- [Developer tools and libraries](#category-developer-tools-and-libraries): 11
+- [Developer tools and libraries](#category-developer-tools-and-libraries): 12
 - [Documents and reading](#category-documents-and-reading): 11
 - [Productivity and daily living](#category-productivity-and-daily-living): 11
 - [Screen readers and speech](#category-screen-readers-and-speech): 11
+- [Media and listening](#category-media-and-listening): 9
+- [Communication](#category-communication): 7
 - [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 6
-- [Communication](#category-communication): 6
-- [Media and listening](#category-media-and-listening): 6
-- [AI and visual assistance](#category-ai-and-visual-assistance): 5
+- [AI and visual assistance](#category-ai-and-visual-assistance): 6
 - [Games and game engines](#category-games-and-game-engines): 5
 - [Braille and tactile](#category-braille-and-tactile): 4
 - [Education and training](#category-education-and-training): 4
@@ -108,18 +108,18 @@ Most first; each app has one category.
 
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
-- Using AI while it runs: 13 apps.
-- Built with the help of an AI: 19 apps.
+- Using AI while it runs: 14 apps.
+- Built with the help of an AI: 21 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 85 of the 125 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 91 of the 131 apps; an app written in two languages counts once for each. Most first.
 
-- Python: 29
+- Python: 30
 - C#: 9
-- Rust: 5
+- Rust: 6
+- Swift: 5
 - JavaScript: 4
-- Swift: 4
 - C++: 3
 - HTML: 3
 - JAWS scripts: 3
@@ -142,26 +142,28 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 - .NET Framework: 7
 - AI vision models: 4
 - Microsoft Edge: 4
+- SwiftUI: 4
 - wxPython: 4
-- SwiftUI: 3
+- FFmpeg: 3
+- wxDragon: 3
+- yt-dlp: 3
 - .NET Windows Forms: 2
+- AI (to build): 2
 - AI-assisted development (to build): 2
 - ARIA: 2
 - Chrome DevTools Protocol: 2
 - ElevenLabs AI: 2
-- FFmpeg: 2
 - Hyper-V: 2
 - Markdown agent files: 2
 - Microsoft Office: 2
 - Progressive web app: 2
 - WPF: 2
-- wxDragon: 2
 
 ### Where the apps are available {#stats-source}
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 80
+- GitHub: 86
 - Developer website: 31
 - App Store: 9
 - NVDA Community Add-ons: 2
@@ -177,6 +179,7 @@ Developers with three or more apps here, most first.
 - [Kelly Ford](#by-dev-ford): 11
 - [Jamal Mazrui](#by-dev-mazrui): 11
 - [Tony Gebhard](#by-dev-gebhard): 7
+- [Brandon Bracey](#by-dev-bracey): 6
 - [Quin Gillespie](#by-dev-gillespie): 6
 - [Taylor Arndt](#by-dev-arndt): 5
 - [Jeff Bishop](#by-dev-bishop): 4
@@ -320,6 +323,66 @@ A local-first, keyboard-friendly workspace for recording accessibility findings 
 - Tech: AI-assisted development (to build)
 
 ## B {#letter-b}
+
+### [BlindFB][blindfb] {#blindfb}
+
+A screen-reader-friendly Facebook and Messenger client, still in beta, for reading the feed and notifications, posting, and chatting through native controls instead of the Facebook website.
+
+- Available from: GitHub
+- Category: [Communication](#category-communication)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Linux, macOS, Windows
+- Tech: AI (to build), Rust, wxDragon
+
+### [BlindPilot for Android][blindpilot-android] {#blindpilot-android}
+
+A native AI chat app built around TalkBack that connects to many cloud AI services, with screen reader actions on every message and conversation.
+
+- Available from: GitHub
+- Category: [AI and visual assistance](#category-ai-and-visual-assistance)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Android
+- Tech: AI chat services
+
+### [BlindRSS][blindrss] {#blindrss}
+
+A desktop RSS and podcast client that reads feeds, full articles, and YouTube videos, plays and casts audio, and works with hosted feed services, all built for the keyboard and screen reader.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Linux, macOS, Windows
+- Tech: AI (to build), Python, VLC, yt-dlp
+
+### [BlindRSS for Android][blindrss-android] {#blindrss-android}
+
+The Android edition of BlindRSS for TalkBack users, reading full articles a paragraph at a time and playing podcasts in the background with the screen off.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Android
+- Tech: FFmpeg, yt-dlp
+
+### [BlindRSS for iOS][blindrss-ios] {#blindrss-ios}
+
+A VoiceOver-first edition of BlindRSS for iPhone and iPad, installed by sideloading through AltStore.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: iOS
+- Tech: Swift, SwiftUI
+
+### [BlindTerm][blindterm] {#blindterm}
+
+A Windows terminal for NVDA and JAWS users that speaks command output and makes full-screen programs, AI coding agents, and text-based MUD games usable.
+
+- Available from: GitHub
+- Category: [Developer tools and libraries](#category-developer-tools-and-libraries)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Windows
+- Tech: .NET 10
 
 ### [bookFido][bookfido] {#bookfido}
 
@@ -1454,9 +1517,11 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [SignalScope](#signalscope), Louis
 
-### Android (11 apps) {#platform-android}
+### Android (13 apps) {#platform-android}
 
 - [ACB Link](#acb-link), Doise
+- [BlindPilot for Android](#blindpilot-android), Bracey
+- [BlindRSS for Android](#blindrss-android), Bracey
 - [Clipman](#clipman), Louis
 - [evvdroid](#evvdroid), Gillespie
 - [nvgt-bridge](#nvgt-bridge), Gillespie
@@ -1496,9 +1561,10 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [Graphiti](#graphiti), Perry
 
-### iOS (18 apps) {#platform-ios}
+### iOS (19 apps) {#platform-ios}
 
 - [ACB Link](#acb-link), Doise
+- [BlindRSS for iOS](#blindrss-ios), Bracey
 - [The Card Place](#card-place), Ford
 - [Clipman](#clipman), Louis
 - [Intersector](#intersector), Salsiccia
@@ -1523,9 +1589,11 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Leasey](#leasey), Hartgen
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
 
-### Linux (10 apps) {#platform-linux}
+### Linux (12 apps) {#platform-linux}
 
 - [AccessKit](#accesskit), Campbell
+- [BlindFB](#blindfb), Bracey
+- [BlindRSS](#blindrss), Bracey
 - [BrailleBlaster](#brailleblaster), Boyer
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
@@ -1536,9 +1604,11 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [tdsr](#tdsr), Spivey
 - [TTCom](#ttcom), Doug Lee
 
-### macOS (22 apps) {#platform-macos}
+### macOS (24 apps) {#platform-macos}
 
 - [AccessKit](#accesskit), Campbell
+- [BlindFB](#blindfb), Bracey
+- [BlindRSS](#blindrss), Bracey
 - [BrailleBlaster](#brailleblaster), Boyer
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
@@ -1614,13 +1684,16 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (65 apps) {#platform-windows}
+### Windows (68 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
 - [AccessKit](#accesskit), Campbell
 - [AllToMidi](#alltomidi), Louis
 - [American Explorer](#american-explorer), Gebhard
+- [BlindFB](#blindfb), Bracey
+- [BlindRSS](#blindrss), Bracey
+- [BlindTerm](#blindterm), Bracey
 - [bookFido](#bookfido), Mazrui
 - [BrailleBlaster](#brailleblaster), Boyer
 - [BrailleKeyboard](#braillekeyboard), Adams
@@ -1695,8 +1768,9 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [GLOW Accessibility Toolkit](#glow), Bishop
 - [urlCheck](#urlcheck), Mazrui
 
-### AI and visual assistance (5 apps) {#category-ai-and-visual-assistance}
+### AI and visual assistance (6 apps) {#category-ai-and-visual-assistance}
 
+- [BlindPilot for Android](#blindpilot-android), Bracey
 - [Image Description Toolkit](#image-description-toolkit), Ford
 - [Perspective Intelligence](#perspective-intelligence), Doise
 - [ScribeMe](#scribeme), Morad
@@ -1726,20 +1800,22 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Graphiti](#graphiti), Perry
 - [Liblouis](#liblouis), Boyer
 
-### Communication (6 apps) {#category-communication}
+### Communication (7 apps) {#category-communication}
 
 - [Accessible Live Captions](#accessible-live-captions), Ford
+- [BlindFB](#blindfb), Bracey
 - [Fedra](#fedra), Gillespie
 - [Lumin](#lumin), Ganesh
 - [QuickMail](#quickmail), Ford
 - [TTCom](#ttcom), Doug Lee
 - [Zerogram](#zerogram), Karaca
 
-### Developer tools and libraries (11 apps) {#category-developer-tools-and-libraries}
+### Developer tools and libraries (12 apps) {#category-developer-tools-and-libraries}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [AccessKit](#accesskit), Campbell
+- [BlindTerm](#blindterm), Bracey
 - [Codestats](#codestats), Gillespie
 - [GHManage](#ghmanage), Ford
 - [GitHub Downloader](#github-downloader), Apollaro
@@ -1794,9 +1870,12 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [nvgt-bridge](#nvgt-bridge), Gillespie
 - [Survive the Wild](#survive-the-wild), Tupy
 
-### Media and listening (6 apps) {#category-media-and-listening}
+### Media and listening (9 apps) {#category-media-and-listening}
 
 - [ACB Link](#acb-link), Doise
+- [BlindRSS](#blindrss), Bracey
+- [BlindRSS for Android](#blindrss-android), Bracey
+- [BlindRSS for iOS](#blindrss-ios), Bracey
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [Mini Load](#mini-load), Dash
 - [News Fusion](#news-fusion), Louis
@@ -1888,6 +1967,15 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 
 - [BrailleBlaster](#brailleblaster)
 - [Liblouis](#liblouis)
+
+### [Brandon Bracey][dev-bracey] (6 apps) {#by-dev-bracey}
+
+- [BlindFB](#blindfb)
+- [BlindPilot for Android](#blindpilot-android)
+- [BlindRSS](#blindrss)
+- [BlindRSS for Android](#blindrss-android)
+- [BlindRSS for iOS](#blindrss-ios)
+- [BlindTerm](#blindterm)
 
 ### [Tristen Breitenfeldt][dev-breitenfeldt] (2 apps) {#by-dev-breitenfeldt}
 
@@ -2240,12 +2328,19 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [signalscope]: https://github.com/OnjLouis/schwung-signalscope/releases
 [soundwave]: https://github.com/OnjLouis/soundWave/releases
 [wikifusion]: https://github.com/OnjLouis/wikiFusion/releases
+[blindfb]: https://github.com/serrebidev/BlindFB
+[blindpilot-android]: https://github.com/serrebidev/BlindPilot-Android/releases
+[blindrss]: https://github.com/serrebidev/BlindRSS
+[blindrss-android]: https://github.com/serrebidev/BlindRSS-Android/releases
+[blindrss-ios]: https://github.com/serrebidev/BlindRSS-iOS
+[blindterm]: https://github.com/serrebidev/BlindTerm/releases
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
 [dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
 [dev-arndt]: https://jamalmazrui.github.io/BlindDevelopers/#dev-arndt
 [dev-bishop]: https://jamalmazrui.github.io/BlindDevelopers/#dev-bishop
 [dev-boyer]: https://jamalmazrui.github.io/BlindDevelopers/#dev-boyer
+[dev-bracey]: https://jamalmazrui.github.io/BlindDevelopers/#dev-bracey
 [dev-breitenfeldt]: https://jamalmazrui.github.io/BlindDevelopers/#dev-breitenfeldt
 [dev-campbell]: https://jamalmazrui.github.io/BlindDevelopers/#dev-campbell
 [dev-curran]: https://jamalmazrui.github.io/BlindDevelopers/#dev-curran
