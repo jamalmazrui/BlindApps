@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 131 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 133 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.11.0"
+version: "v1.12.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 131 apps and tools made by 44 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 133 apps and tools made by 45 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,7 +47,7 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 131 apps from 44 developers, an average of 3.0 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 133 apps from 45 developers, an average of 3.0 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
@@ -57,7 +57,7 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 - More than one platform: 40 apps.
 - Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 33 apps.
 - Linux, macOS, and Windows together: 10 apps.
-- Desktop (Linux, macOS, or Windows): 72 apps.
+- Desktop (Linux, macOS, or Windows): 74 apps.
 - Phone or tablet (Android or iOS): 24 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 27 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
@@ -68,7 +68,7 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 Most first; an app on several platforms counts once for each.
 
 - [Windows](#platform-windows): 68
-- [macOS](#platform-macos): 24
+- [macOS](#platform-macos): 26
 - [NVDA](#platform-nvda): 24
 - [iOS](#platform-ios): 19
 - [Web](#platform-web): 15
@@ -90,9 +90,9 @@ Most first; an app on several platforms counts once for each.
 Most first; each app has one category.
 
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 19
+- [Files and system utilities](#category-files-and-system-utilities): 14
 - [Audio and video production](#category-audio-and-video-production): 13
-- [Files and system utilities](#category-files-and-system-utilities): 13
-- [Developer tools and libraries](#category-developer-tools-and-libraries): 12
+- [Developer tools and libraries](#category-developer-tools-and-libraries): 13
 - [Documents and reading](#category-documents-and-reading): 11
 - [Productivity and daily living](#category-productivity-and-daily-living): 11
 - [Screen readers and speech](#category-screen-readers-and-speech): 11
@@ -109,16 +109,16 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 21 apps.
+- Built with the help of an AI: 23 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 91 of the 131 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 93 of the 133 apps; an app written in two languages counts once for each. Most first.
 
 - Python: 30
 - C#: 9
+- Swift: 7
 - Rust: 6
-- Swift: 5
 - JavaScript: 4
 - C++: 3
 - HTML: 3
@@ -140,15 +140,15 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 - Claude (to build): 14
 - .NET Framework: 7
+- SwiftUI: 5
+- AI (to build): 4
 - AI vision models: 4
 - Microsoft Edge: 4
-- SwiftUI: 4
 - wxPython: 4
 - FFmpeg: 3
 - wxDragon: 3
 - yt-dlp: 3
 - .NET Windows Forms: 2
-- AI (to build): 2
 - AI-assisted development (to build): 2
 - ARIA: 2
 - Chrome DevTools Protocol: 2
@@ -163,7 +163,7 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 86
+- GitHub: 88
 - Developer website: 31
 - App Store: 9
 - NVDA Community Add-ons: 2
@@ -264,6 +264,16 @@ A cross-platform library that connects user interface toolkits to the accessibil
 - Platform: Linux, macOS, Windows
 - Tech: Rust
 
+### [AccessTerm][accessterm] {#accessterm}
+
+An accessible terminal client for the Mac, made for using command-line tools such as Claude Code with VoiceOver: commands go in a command view, and output can be read line by line in a transcript, with keys to move between and copy each command's output.
+
+- Available from: GitHub
+- Category: [Developer tools and libraries](#category-developer-tools-and-libraries)
+- Developer: [Allison Meloy][dev-meloy]
+- Platform: macOS
+- Tech: AI (to build), Swift
+
 ### [Add-on Updater][addon-updater] {#addon-updater}
 
 Keeps other NVDA add-ons up to date.
@@ -321,6 +331,16 @@ A local-first, keyboard-friendly workspace for recording accessibility findings 
 - Developer: [Tristen Breitenfeldt][dev-breitenfeldt]
 - Platform: Web
 - Tech: AI-assisted development (to build)
+
+### [AVM (Accessible Virtual Machine)][avm] {#avm}
+
+Installs and runs Windows 11 virtual machines on an Apple Silicon Mac entirely through VoiceOver, with no sighted help at any step, and speaks a specific, useful message for every failure.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Allison Meloy][dev-meloy]
+- Platform: macOS
+- Tech: AI (to build), Swift, SwiftUI
 
 ## B {#letter-b}
 
@@ -1604,9 +1624,11 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [tdsr](#tdsr), Spivey
 - [TTCom](#ttcom), Doug Lee
 
-### macOS (24 apps) {#platform-macos}
+### macOS (26 apps) {#platform-macos}
 
 - [AccessKit](#accesskit), Campbell
+- [AccessTerm](#accessterm), Meloy
+- [AVM (Accessible Virtual Machine)](#avm), Meloy
 - [BlindFB](#blindfb), Bracey
 - [BlindRSS](#blindrss), Bracey
 - [BrailleBlaster](#brailleblaster), Boyer
@@ -1810,11 +1832,12 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TTCom](#ttcom), Doug Lee
 - [Zerogram](#zerogram), Karaca
 
-### Developer tools and libraries (12 apps) {#category-developer-tools-and-libraries}
+### Developer tools and libraries (13 apps) {#category-developer-tools-and-libraries}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [AccessKit](#accesskit), Campbell
+- [AccessTerm](#accessterm), Meloy
 - [BlindTerm](#blindterm), Bracey
 - [Codestats](#codestats), Gillespie
 - [GHManage](#ghmanage), Ford
@@ -1846,8 +1869,9 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [Word Champion](#word-champion), Gebhard
 
-### Files and system utilities (13 apps) {#category-files-and-system-utilities}
+### Files and system utilities (14 apps) {#category-files-and-system-utilities}
 
+- [AVM (Accessible Virtual Machine)](#avm), Meloy
 - [Clipman](#clipman), Louis
 - [FileDentify](#filedentify), Louis
 - [FileDir](#filedir), Mazrui
@@ -2132,6 +2156,11 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 
 - [NFB 2026 Convention Web App](#nfb26)
 
+### [Allison Meloy][dev-meloy] (2 apps) {#by-dev-meloy}
+
+- [AccessTerm](#accessterm)
+- [AVM (Accessible Virtual Machine)](#avm)
+
 ### [Tyler Merren][dev-merren] (1 app) {#by-dev-merren}
 
 - [ReVision Fitness](#revision-fitness)
@@ -2334,6 +2363,8 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [blindrss-android]: https://github.com/serrebidev/BlindRSS-Android/releases
 [blindrss-ios]: https://github.com/serrebidev/BlindRSS-iOS
 [blindterm]: https://github.com/serrebidev/BlindTerm/releases
+[accessterm]: https://github.com/allisonfm85/AccessTerm
+[avm]: https://github.com/allisonfm85/accessible-virtual-machine
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
 [dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
@@ -2362,6 +2393,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dev-malykh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-malykh
 [dev-mazrui]: https://jamalmazrui.github.io/BlindDevelopers/#dev-mazrui
 [dev-meddaugh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-meddaugh
+[dev-meloy]: https://jamalmazrui.github.io/BlindDevelopers/#dev-meloy
 [dev-merren]: https://jamalmazrui.github.io/BlindDevelopers/#dev-merren
 [dev-moodley]: https://jamalmazrui.github.io/BlindDevelopers/#dev-moodley
 [dev-morad]: https://jamalmazrui.github.io/BlindDevelopers/#dev-morad
