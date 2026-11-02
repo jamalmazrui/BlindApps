@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 175 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 180 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "October 2026"
-version: "v1.13.0"
+version: "v1.15.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 175 apps and tools made by 45 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 180 apps and tools made by 45 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,19 +47,19 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 175 apps from 45 developers, an average of 3.9 apps per developer (median 2). Of these, 20 developers have one app each; the most prolific are listed below.
+The directory holds 180 apps from 45 developers, an average of 4.0 apps per developer (median 2). Of these, 20 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
-- Windows only: 44 apps.
+- Windows only: 45 apps.
 - More than one platform: 42 apps.
-- Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 72 apps.
+- Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 76 apps.
 - Linux, macOS, and Windows together: 11 apps.
-- Desktop (Linux, macOS, or Windows): 77 apps.
+- Desktop (Linux, macOS, or Windows): 78 apps.
 - Phone or tablet (Android or iOS): 24 apps, of which 8 run on both.
-- Screen reader extensions (JAWS scripts and NVDA add-ons): 66 apps.
+- Screen reader extensions (JAWS scripts and NVDA add-ons): 70 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
 - Co-created by two developers in this directory: 4 apps.
 
@@ -67,8 +67,8 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 70
-- [JAWS](#platform-jaws): 40
+- [Windows](#platform-windows): 71
+- [JAWS](#platform-jaws): 44
 - [macOS](#platform-macos): 27
 - [NVDA](#platform-nvda): 27
 - [iOS](#platform-ios): 19
@@ -89,10 +89,10 @@ Most first; an app on several platforms counts once for each.
 
 Most first; each app has one category.
 
-- [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 58
+- [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 62
+- [Files and system utilities](#category-files-and-system-utilities): 15
 - [Audio and video production](#category-audio-and-video-production): 14
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 14
-- [Files and system utilities](#category-files-and-system-utilities): 14
 - [Productivity and daily living](#category-productivity-and-daily-living): 12
 - [Documents and reading](#category-documents-and-reading): 11
 - [Screen readers and speech](#category-screen-readers-and-speech): 11
@@ -109,15 +109,15 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 23 apps.
+- Built with the help of an AI: 24 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 135 of the 175 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 140 of the 180 apps; an app written in two languages counts once for each. Most first.
 
-- JAWS scripts: 40
+- JAWS scripts: 44
 - Python: 35
-- C#: 9
+- C#: 10
 - Swift: 7
 - Rust: 6
 - JavaScript: 4
@@ -140,8 +140,8 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 - Claude (to build): 14
 - .NET Framework: 7
+- AI (to build): 5
 - SwiftUI: 5
-- AI (to build): 4
 - AI vision models: 4
 - Microsoft Edge: 4
 - wxPython: 4
@@ -163,8 +163,8 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 88
-- Developer website: 73
+- GitHub: 89
+- Developer website: 77
 - App Store: 9
 - NVDA Community Add-ons: 2
 - Google Play: 1
@@ -175,10 +175,10 @@ Counted by each app's main link. GitHub links usually mean the source code is pu
 
 Developers with three or more apps here, most first.
 
-- [Doug Lee](#by-dev-dlee): 43
+- [Doug Lee](#by-dev-dlee): 47
 - [Andre "Onj" Louis](#by-dev-louis): 25
+- [Jamal Mazrui](#by-dev-mazrui): 12
 - [Kelly Ford](#by-dev-ford): 11
-- [Jamal Mazrui](#by-dev-mazrui): 11
 - [Tony Gebhard](#by-dev-gebhard): 7
 - [Brandon Bracey](#by-dev-bracey): 6
 - [Quin Gillespie](#by-dev-gillespie): 6
@@ -394,6 +394,16 @@ Installs and runs Windows 11 virtual machines on an Apple Silicon Mac entirely t
 - Tech: AI (to build), Swift, SwiftUI
 
 ## B {#letter-b}
+
+### [BatCon][batcon] {#batcon}
+
+Converts many files at once between formats -- PDF to Markdown, Word to web page, Markdown to Word or PowerPoint, an inix table to Excel -- with the same conversions as the other Homer Tools, and with optional OCR and transcription on your own computer.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Jamal Mazrui][dev-mazrui]
+- Platform: Windows
+- Tech: AI (to build), C#
 
 ### [BlindFB][blindfb] {#blindfb}
 
@@ -820,16 +830,6 @@ A refreshable tactile graphics display that presents braille and images on a fie
 
 ## H {#letter-h}
 
-### [Ham Radio JAWS Scripts][dlee-ham] {#dlee-ham}
-
-JAWS scripts and resources for blind ham radio operators, for OpenGD77CPS, NetLogger, RT Systems RadioEngine, iaxRpt and Winlink Express.
-
-- Available from: Doug Lee's website
-- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
-- Developer: [Doug Lee][dev-dlee]
-- Platform: JAWS
-- Tech: JAWS scripts
-
 ### [Hayaemon JAWS Scripts][dlee-hayaemon] {#dlee-hayaemon}
 
 JAWS scripts for the Hayaemon audio player.
@@ -881,6 +881,16 @@ Creates and manages Hyper-V virtual machines and can picture a machine's screen 
 - Tech: Claude (to build), Hyper-V, PowerShell
 
 ## I {#letter-i}
+
+### [iaxRpt JAWS Scripts][dlee-iaxrpt] {#dlee-iaxrpt}
+
+JAWS scripts for iaxRpt, the AllStar link client, first written by Frank Ibarra and now maintained by Doug Lee.
+
+- Available from: Doug Lee's website
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Doug Lee][dev-dlee]
+- Platform: JAWS
+- Tech: JAWS scripts
 
 ### [Image Description Toolkit][image-description-toolkit] {#image-description-toolkit}
 
@@ -1115,6 +1125,16 @@ Reports which Native Instruments music products and serial numbers are on a comp
 - Developer: [Andre "Onj" Louis][dev-louis]
 - Platform: macOS, Windows
 
+### [NetLogger JAWS Scripts][dlee-netlogger] {#dlee-netlogger}
+
+JAWS scripts for NetLogger, the amateur radio net logging program.
+
+- Available from: Doug Lee's website
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Doug Lee][dev-dlee]
+- Platform: JAWS
+- Tech: JAWS scripts
+
 ### [News Fusion][news-fusion] {#news-fusion}
 
 A UK-focused news feed reader for NVDA with a fast tree of headlines and clean article text where available.
@@ -1214,6 +1234,16 @@ Gives NVGT audio games direct touch control on Android while TalkBack keeps hand
 - Tech: Kotlin
 
 ## O {#letter-o}
+
+### [OpenGD77CPS JAWS Scripts][dlee-dmr] {#dlee-dmr}
+
+JAWS scripts for OpenGD77CPS and compatible radio programming software, for blind ham radio operators.
+
+- Available from: Doug Lee's website
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Doug Lee][dev-dlee]
+- Platform: JAWS
+- Tech: JAWS scripts
 
 ### [OSARA][osara] {#osara}
 
@@ -1392,6 +1422,16 @@ A fast RSS reader built for screen readers, braille displays, and the keyboard, 
 - Developer: [Kelly Ford][dev-ford]
 - Platform: iOS, macOS, Windows
 - Tech: Claude (to build), Swift, SwiftUI
+
+### [RT Systems RadioEngine JAWS Scripts][dlee-radioengine] {#dlee-radioengine}
+
+JAWS scripts for RT Systems RadioEngine radio programming software, first published by Joseph Stephen and now maintained by Doug Lee.
+
+- Available from: Doug Lee's website
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Doug Lee][dev-dlee]
+- Platform: JAWS
+- Tech: JAWS scripts
 
 ## S {#letter-s}
 
@@ -1880,6 +1920,16 @@ Improves NVDA access to the apps built into Windows.
 - Platform: NVDA
 - Tech: Python
 
+### [Winlink Express JAWS Scripts][dlee-winlink] {#dlee-winlink}
+
+JAWS scripts for Winlink Express, the radio email program, published with his ham radio resources.
+
+- Available from: Doug Lee's website
+- Category: [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts)
+- Developer: [Doug Lee][dev-dlee]
+- Platform: JAWS
+- Tech: JAWS scripts
+
 ### [Wireshark JAWS Scripts][dlee-wireshark] {#dlee-wireshark}
 
 JAWS scripts for the Wireshark network analyzer, for JAWS 2018 or later.
@@ -2026,7 +2076,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [zEdit](#zedit), Karaca
 - [Zerogram](#zerogram), Karaca
 
-### JAWS (40 apps) {#platform-jaws}
+### JAWS (44 apps) {#platform-jaws}
 
 - [3CX JAWS Scripts](#dlee-3cx), Doug Lee
 - [Adobe Connect JAWS Scripts](#dlee-adobeconnect), Doug Lee
@@ -2039,8 +2089,8 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Dixa JAWS Scripts](#dlee-dixa), Doug Lee
 - [Dropbox JAWS Scripts](#dlee-dropbox), Doug Lee
 - [GoldWave JAWS Scripts](#dlee-goldwave), Doug Lee
-- [Ham Radio JAWS Scripts](#dlee-ham), Doug Lee
 - [Hayaemon JAWS Scripts](#dlee-hayaemon), Doug Lee
+- [iaxRpt JAWS Scripts](#dlee-iaxrpt), Doug Lee
 - [J-Say](#jsay), Hartgen
 - [JAWS Alert Manager (JAM)](#dlee-jam), Doug Lee
 - [JGauge](#dlee-jgauge), Doug Lee
@@ -2050,9 +2100,12 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Microsoft Teams JAWS Scripts](#dlee-teams), Doug Lee
 - [Movies and TV JAWS Scripts](#dlee-mtv), Doug Lee
 - [MuseScore Scripts](#dlee-musescore), Doug Lee
+- [NetLogger JAWS Scripts](#dlee-netlogger), Doug Lee
+- [OpenGD77CPS JAWS Scripts](#dlee-dmr), Doug Lee
 - [Ramblio Scripts](#dlee-ramblio), Doug Lee
 - [Rig Manager JAWS Scripts](#dlee-rig), Doug Lee
 - [RS Games Scripts](#dlee-rsgames), Doug Lee
+- [RT Systems RadioEngine JAWS Scripts](#dlee-radioengine), Doug Lee
 - [Slack JAWS Scripts](#dlee-slack), Doug Lee
 - [TeamSpeak JAWS Scripts](#dlee-teamspeak), Doug Lee
 - [TeamTalk JAWS Scripts and Tools](#dlee-teamtalk), Doug Lee
@@ -2065,6 +2118,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [VLC Media Player JAWS Scripts](#dlee-vlc), Doug Lee
 - [Weather Watcher Live JAWS Scripts](#dlee-ww), Doug Lee
 - [WhatsApp JAWS Scripts](#dlee-whatsapp), Doug Lee
+- [Winlink Express JAWS Scripts](#dlee-winlink), Doug Lee
 - [Wireshark JAWS Scripts](#dlee-wireshark), Doug Lee
 - [YouTube JAWS Scripts](#dlee-youtube), Doug Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
@@ -2172,7 +2226,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (70 apps) {#platform-windows}
+### Windows (71 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
@@ -2180,6 +2234,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [AllToMidi](#alltomidi), Louis
 - [American Explorer](#american-explorer), Gebhard
 - [Audir (Audio Director Manager)](#dlee-audir), Doug Lee
+- [BatCon](#batcon), Mazrui
 - [BlindFB](#blindfb), Bracey
 - [BlindRSS](#blindrss), Bracey
 - [BlindTerm](#blindterm), Bracey
@@ -2339,9 +2394,10 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [Word Champion](#word-champion), Gebhard
 
-### Files and system utilities (14 apps) {#category-files-and-system-utilities}
+### Files and system utilities (15 apps) {#category-files-and-system-utilities}
 
 - [AVM (Accessible Virtual Machine)](#avm), Meloy
+- [BatCon](#batcon), Mazrui
 - [Clipman](#clipman), Louis
 - [FileDentify](#filedentify), Louis
 - [FileDir](#filedir), Mazrui
@@ -2391,7 +2447,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [WayAround](#wayaround), Doise
 - [WeatherFast](#weatherfast), Ford
 
-### Screen reader add-ons and scripts (58 apps) {#category-screen-reader-add-ons-and-scripts}
+### Screen reader add-ons and scripts (62 apps) {#category-screen-reader-add-ons-and-scripts}
 
 - [3CX JAWS Scripts](#dlee-3cx), Doug Lee
 - [Add-on Updater](#addon-updater), Joseph Lee
@@ -2408,9 +2464,9 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Dropbox JAWS Scripts](#dlee-dropbox), Doug Lee
 - [FastRead](#fastread), Louis
 - [GoldWave JAWS Scripts](#dlee-goldwave), Doug Lee
-- [Ham Radio JAWS Scripts](#dlee-ham), Doug Lee
 - [Hayaemon JAWS Scripts](#dlee-hayaemon), Doug Lee
 - [HomerView](#homerview), Mazrui
+- [iaxRpt JAWS Scripts](#dlee-iaxrpt), Doug Lee
 - [IndentNav](#indentnav), Malykh
 - [J-Say](#jsay), Hartgen
 - [JAWS Alert Manager (JAM)](#dlee-jam), Doug Lee
@@ -2422,12 +2478,15 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Minuter](#minuter), Louis
 - [Movies and TV JAWS Scripts](#dlee-mtv), Doug Lee
 - [MuseScore Scripts](#dlee-musescore), Doug Lee
+- [NetLogger JAWS Scripts](#dlee-netlogger), Doug Lee
 - [NVDA Add-ons by Derek Riemer](#riemer-addons), Riemer
 - [NVDA Remote](#nvda-remote), Spivey and Toth
+- [OpenGD77CPS JAWS Scripts](#dlee-dmr), Doug Lee
 - [Ramblio Scripts](#dlee-ramblio), Doug Lee
 - [Resource Monitor](#resource-monitor), Joseph Lee
 - [Rig Manager JAWS Scripts](#dlee-rig), Doug Lee
 - [RS Games Scripts](#dlee-rsgames), Doug Lee
+- [RT Systems RadioEngine JAWS Scripts](#dlee-radioengine), Doug Lee
 - [SentenceNav](#sentencenav), Malykh
 - [Slack JAWS Scripts](#dlee-slack), Doug Lee
 - [soundWave](#soundwave), Louis
@@ -2448,6 +2507,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [WhatsApp JAWS Scripts](#dlee-whatsapp), Doug Lee
 - [WikiFusion](#wikifusion), Louis
 - [Windows App Essentials](#windows-app-essentials), Joseph Lee
+- [Winlink Express JAWS Scripts](#dlee-winlink), Doug Lee
 - [Wireshark JAWS Scripts](#dlee-wireshark), Doug Lee
 - [YouTube JAWS Scripts](#dlee-youtube), Doug Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
@@ -2598,7 +2658,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [zEdit](#zedit)
 - [Zerogram](#zerogram)
 
-### [Doug Lee][dev-dlee] (43 apps) {#by-dev-dlee}
+### [Doug Lee][dev-dlee] (47 apps) {#by-dev-dlee}
 
 - [3CX JAWS Scripts](#dlee-3cx)
 - [Adobe Connect JAWS Scripts](#dlee-adobeconnect)
@@ -2613,8 +2673,8 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [Dixa JAWS Scripts](#dlee-dixa)
 - [Dropbox JAWS Scripts](#dlee-dropbox)
 - [GoldWave JAWS Scripts](#dlee-goldwave)
-- [Ham Radio JAWS Scripts](#dlee-ham)
 - [Hayaemon JAWS Scripts](#dlee-hayaemon)
+- [iaxRpt JAWS Scripts](#dlee-iaxrpt)
 - [JAWS Alert Manager (JAM)](#dlee-jam)
 - [JGauge](#dlee-jgauge)
 - [ListTbl](#dlee-listtbl)
@@ -2622,9 +2682,12 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [Microsoft Teams JAWS Scripts](#dlee-teams)
 - [Movies and TV JAWS Scripts](#dlee-mtv)
 - [MuseScore Scripts](#dlee-musescore)
+- [NetLogger JAWS Scripts](#dlee-netlogger)
+- [OpenGD77CPS JAWS Scripts](#dlee-dmr)
 - [Ramblio Scripts](#dlee-ramblio)
 - [Rig Manager JAWS Scripts](#dlee-rig)
 - [RS Games Scripts](#dlee-rsgames)
+- [RT Systems RadioEngine JAWS Scripts](#dlee-radioengine)
 - [scrfix](#dlee-scrfix)
 - [Slack JAWS Scripts](#dlee-slack)
 - [TeamSpeak JAWS Scripts](#dlee-teamspeak)
@@ -2641,6 +2704,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [VLC Media Player JAWS Scripts](#dlee-vlc)
 - [Weather Watcher Live JAWS Scripts](#dlee-ww)
 - [WhatsApp JAWS Scripts](#dlee-whatsapp)
+- [Winlink Express JAWS Scripts](#dlee-winlink)
 - [Wireshark JAWS Scripts](#dlee-wireshark)
 - [YouTube JAWS Scripts](#dlee-youtube)
 
@@ -2690,9 +2754,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [SentenceNav](#sentencenav)
 - [Tony's Enhancements](#tonys-enhancements)
 
-### [Jamal Mazrui][dev-mazrui] (11 apps) {#by-dev-mazrui}
+### [Jamal Mazrui][dev-mazrui] (12 apps) {#by-dev-mazrui}
 
 - [2htm](#app-2htm)
+- [BatCon](#batcon)
 - [bookFido](#bookfido)
 - [DbDo](#dbdo)
 - [EdSharp](#edsharp)
@@ -2930,7 +2995,6 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dlee-dixa]: https://dlee.org/dixa/
 [dlee-dropbox]: https://dlee.org/dropbox/
 [dlee-goldwave]: https://dlee.org/goldwave/
-[dlee-ham]: https://dlee.org/ham/
 [dlee-hayaemon]: https://dlee.org/hayaemon/
 [dlee-jam]: https://dlee.org/jam/
 [dlee-jgauge]: https://dlee.org/jgauge/
@@ -2959,6 +3023,12 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dlee-wireshark]: https://dlee.org/wireshark/
 [dlee-ww]: https://dlee.org/ww/
 [dlee-youtube]: https://dlee.org/youtube/
+[dlee-dmr]: https://www.dlee.org/dmr/
+[dlee-netlogger]: https://www.dlee.org/ham/netlogger
+[dlee-radioengine]: https://www.dlee.org/ham/radioEngine/
+[dlee-iaxrpt]: https://www.dlee.org/ham/iaxrpt/
+[dlee-winlink]: https://dlee.org/ham/
+[batcon]: https://github.com/JamalMazrui/BatCon
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
 [dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
