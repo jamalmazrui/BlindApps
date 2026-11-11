@@ -3,8 +3,8 @@ title: "Blind Apps"
 subtitle: "A Directory of 180 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
-date: "October 2026"
-version: "v1.15.0"
+date: "November 2026"
+version: "v1.15.1"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -109,7 +109,7 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 24 apps.
+- Built with the help of an AI: 25 apps.
 
 ### Programming languages {#stats-languages}
 
@@ -138,7 +138,7 @@ Counted from the Tech field, which is filled in for 140 of the 180 apps; an app 
 
 Engines, frameworks, and services from the Tech field that appear in two or more apps. Most first.
 
-- Claude (to build): 14
+- Claude (to build): 15
 - .NET Framework: 7
 - AI (to build): 5
 - SwiftUI: 5
@@ -1182,7 +1182,7 @@ Teaches NVDA commands from inside NVDA through 45 guided, hands-on lessons with 
 - Category: [Education and training](#category-education-and-training)
 - Developer: [Tony Gebhard][dev-gebhard]
 - Platform: NVDA
-- Tech: Python
+- Tech: Claude (to build), Python
 
 ### [NVDA Composer][nvda-composer] {#nvda-composer}
 
