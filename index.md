@@ -1,6 +1,6 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 180 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 183 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "November 2026"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 180 apps and tools made by 45 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 183 apps and tools made by 46 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,18 +47,18 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 180 apps from 45 developers, an average of 4.0 apps per developer (median 2). Of these, 20 developers have one app each; the most prolific are listed below.
+The directory holds 183 apps from 46 developers, an average of 4.0 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
 - Windows only: 45 apps.
-- More than one platform: 42 apps.
+- More than one platform: 44 apps.
 - Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 76 apps.
-- Linux, macOS, and Windows together: 11 apps.
-- Desktop (Linux, macOS, or Windows): 78 apps.
-- Phone or tablet (Android or iOS): 24 apps, of which 8 run on both.
+- Linux, macOS, and Windows together: 13 apps.
+- Desktop (Linux, macOS, or Windows): 80 apps.
+- Phone or tablet (Android or iOS): 25 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 70 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
 - Co-created by two developers in this directory: 4 apps.
@@ -67,13 +67,13 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 71
+- [Windows](#platform-windows): 73
 - [JAWS](#platform-jaws): 44
-- [macOS](#platform-macos): 27
+- [macOS](#platform-macos): 29
 - [NVDA](#platform-nvda): 27
-- [iOS](#platform-ios): 19
+- [iOS](#platform-ios): 20
+- [Linux](#platform-linux): 16
 - [Web](#platform-web): 15
-- [Linux](#platform-linux): 14
 - [Android](#platform-android): 13
 - [Claude Code](#platform-claude-code): 4
 - [GitHub Copilot](#platform-github-copilot): 2
@@ -90,13 +90,13 @@ Most first; an app on several platforms counts once for each.
 Most first; each app has one category.
 
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 62
+- [Audio and video production](#category-audio-and-video-production): 15
 - [Files and system utilities](#category-files-and-system-utilities): 15
-- [Audio and video production](#category-audio-and-video-production): 14
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 14
 - [Productivity and daily living](#category-productivity-and-daily-living): 12
+- [Screen readers and speech](#category-screen-readers-and-speech): 12
 - [Documents and reading](#category-documents-and-reading): 11
-- [Screen readers and speech](#category-screen-readers-and-speech): 11
-- [Media and listening](#category-media-and-listening): 9
+- [Media and listening](#category-media-and-listening): 10
 - [Communication](#category-communication): 7
 - [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 6
 - [AI and visual assistance](#category-ai-and-visual-assistance): 6
@@ -109,19 +109,19 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 25 apps.
+- Built with the help of an AI: 27 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 140 of the 180 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 143 of the 183 apps; an app written in two languages counts once for each. Most first.
 
 - JAWS scripts: 44
 - Python: 35
 - C#: 10
 - Swift: 7
 - Rust: 6
+- C++: 4
 - JavaScript: 4
-- C++: 3
 - HTML: 3
 - C: 2
 - Kotlin: 2
@@ -138,9 +138,9 @@ Counted from the Tech field, which is filled in for 140 of the 180 apps; an app 
 
 Engines, frameworks, and services from the Tech field that appear in two or more apps. Most first.
 
-- Claude (to build): 15
+- Claude (to build): 16
 - .NET Framework: 7
-- AI (to build): 5
+- AI (to build): 6
 - SwiftUI: 5
 - AI vision models: 4
 - Microsoft Edge: 4
@@ -163,9 +163,9 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 89
+- GitHub: 91
 - Developer website: 77
-- App Store: 9
+- App Store: 10
 - NVDA Community Add-ons: 2
 - Google Play: 1
 - Microsoft Store: 1
@@ -176,11 +176,11 @@ Counted by each app's main link. GitHub links usually mean the source code is pu
 Developers with three or more apps here, most first.
 
 - [Doug Lee](#by-dev-dlee): 47
-- [Andre "Onj" Louis](#by-dev-louis): 25
+- [Andre "Onj" Louis](#by-dev-louis): 26
 - [Jamal Mazrui](#by-dev-mazrui): 12
 - [Kelly Ford](#by-dev-ford): 11
+- [Brandon Bracey](#by-dev-bracey): 7
 - [Tony Gebhard](#by-dev-gebhard): 7
-- [Brandon Bracey](#by-dev-bracey): 6
 - [Quin Gillespie](#by-dev-gillespie): 6
 - [Taylor Arndt](#by-dev-arndt): 5
 - [Jeff Bishop](#by-dev-bishop): 4
@@ -425,6 +425,16 @@ A native AI chat app built around TalkBack that connects to many cloud AI servic
 - Platform: Android
 - Tech: AI chat services
 
+### [BlindRadio][blindradio] {#blindradio}
+
+A free, open-source internet radio player that tunes like an analog dial, playing each station as focus lands on it, with recording, time-shifting and song history, all built for the keyboard and screen reader.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Brandon Bracey][dev-bracey]
+- Platform: Linux, macOS, Windows
+- Tech: AI (to build)
+
 ### [BlindRSS][blindrss] {#blindrss}
 
 A desktop RSS and podcast client that reads feeds, full articles, and YouTube videos, plays and casts audio, and works with hosted feed services, all built for the keyboard and screen reader.
@@ -614,6 +624,16 @@ JAWS scripts for Dell Update and Dell Command Update.
 - Developer: [Doug Lee][dev-dlee]
 - Platform: JAWS
 - Tech: JAWS scripts
+
+### [DexedAccessible][dexedaccessible] {#dexedaccessible}
+
+An accessible fork of the open-source Dexed synthesizer, a software version of Yamaha's 1980s DX7, made usable with VoiceOver as a standalone program and inside Logic Pro, with downloads for macOS, Windows and Linux, the last two not yet tested.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Jim Homme][dev-homme]
+- Platform: Linux, macOS, Windows
+- Tech: C++, Claude (to build)
 
 ### [Discord JAWS Scripts][dlee-discord] {#dlee-discord}
 
@@ -1276,6 +1296,16 @@ A private AI assistant that chats, transcribes audio, and recognizes text in ima
 - Developer: [Michael Doise][dev-doise]
 - Platform: iOS, macOS
 - Tech: On-device AI
+
+### [Phonon][phonon] {#phonon}
+
+A free app that brings 102 offline neural voices in five languages to VoiceOver on iPhone and iPad, with speech made on the device and no account or server.
+
+- Available from: App Store
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [Andre "Onj" Louis][dev-louis]
+- Platform: iOS
+- Tech: Gradium Phonon speech model
 
 ### [PlanCake][plancake] {#plancake}
 
@@ -2054,20 +2084,21 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 - [Graphiti](#graphiti), Perry
 
-### iOS (19 apps) {#platform-ios}
+### iOS (20 apps) {#platform-ios}
 
 - [ACB Link](#acb-link), Doise
 - [BlindRSS for iOS](#blindrss-ios), Bracey
-- [The Card Place](#card-place), Ford
 - [Clipman](#clipman), Louis
 - [Intersector](#intersector), Salsiccia
 - [Lumin](#lumin), Ganesh
 - [Perspective Intelligence](#perspective-intelligence), Doise
+- [Phonon](#phonon), Louis
 - [ReVision Fitness](#revision-fitness), Merren
 - [RSS Quick](#rss-quick), Ford
 - [ScribeMe](#scribeme), Morad
 - [Seeing AI](#seeing-ai), Shaikh
 - [Sports Scores](#sports-scores), Ford
+- [The Card Place](#card-place), Ford
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [VAL: Voice, Alarm & Chimes](#val), Williams
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
@@ -2123,15 +2154,17 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [YouTube JAWS Scripts](#dlee-youtube), Doug Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
 
-### Linux (14 apps) {#platform-linux}
+### Linux (16 apps) {#platform-linux}
 
 - [AccessKit](#accesskit), Campbell
 - [BlindFB](#blindfb), Bracey
+- [BlindRadio](#blindradio), Bracey
 - [BlindRSS](#blindrss), Bracey
 - [Bookmark Tree (bmt)](#dlee-bmt), Doug Lee
 - [BrailleBlaster](#brailleblaster), Boyer
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
+- [DexedAccessible](#dexedaccessible), Homme
 - [Emacspeak](#emacspeak), Raman
 - [Liblouis](#liblouis), Boyer
 - [NVGT](#nvgt), Tupy
@@ -2140,17 +2173,19 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [tdsr](#tdsr), Spivey
 - [TTCom](#ttcom), Doug Lee
 
-### macOS (27 apps) {#platform-macos}
+### macOS (29 apps) {#platform-macos}
 
 - [AccessKit](#accesskit), Campbell
 - [AccessTerm](#accessterm), Meloy
 - [AVM (Accessible Virtual Machine)](#avm), Meloy
 - [BlindFB](#blindfb), Bracey
+- [BlindRadio](#blindradio), Bracey
 - [BlindRSS](#blindrss), Bracey
 - [Bookmark Tree (bmt)](#dlee-bmt), Doug Lee
 - [BrailleBlaster](#brailleblaster), Boyer
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
+- [DexedAccessible](#dexedaccessible), Homme
 - [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
 - [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
 - [Emacspeak](#emacspeak), Raman
@@ -2226,7 +2261,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
 
-### Windows (71 apps) {#platform-windows}
+### Windows (73 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
@@ -2236,6 +2271,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Audir (Audio Director Manager)](#dlee-audir), Doug Lee
 - [BatCon](#batcon), Mazrui
 - [BlindFB](#blindfb), Bracey
+- [BlindRadio](#blindradio), Bracey
 - [BlindRSS](#blindrss), Bracey
 - [BlindTerm](#blindterm), Bracey
 - [bookFido](#bookfido), Mazrui
@@ -2245,6 +2281,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Clipman](#clipman), Louis
 - [Codestats](#codestats), Gillespie
 - [DbDo](#dbdo), Mazrui
+- [DexedAccessible](#dexedaccessible), Homme
 - [EdSharp](#edsharp), Mazrui
 - [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
 - [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
@@ -2268,17 +2305,16 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Mini Load](#mini-load), Dash
 - [MoveToMidi](#movetomidi), Louis
 - [Native Serials](#native-serials), Louis
-- [NVDA](#nvda), Curran and Teh
 - [NVDA Sync](#nvda-sync), Louis
+- [NVDA](#nvda), Curran and Teh
 - [NVGT](#nvgt), Tupy
 - [Paperback](#paperback), Gillespie
 - [PlanCake](#plancake), Polykanine
 - [PortableApps Sync](#portableapps-sync), Louis
-- [The Prompt Vault](#prompt-vault), Gebhard
 - [QRead](#qread), Toth
 - [QuickMail](#quickmail), Ford
-- [Quill](#quill), Bishop and Arndt
 - [Quill Radio](#quill-radio), Bishop
+- [Quill](#quill), Bishop and Arndt
 - [Remote Incident Manager](#rim), Campbell
 - [RSS Quick](#rss-quick), Ford
 - [ScanMaster](#scanmaster), Moodley
@@ -2291,6 +2327,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [TG Drop Deck](#tg-drop-deck), Gebhard
 - [TG Imprint](#tg-imprint), Gebhard
 - [TG Spaces](#tg-spaces), Gebhard
+- [The Prompt Vault](#prompt-vault), Gebhard
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [TTCom](#ttcom), Doug Lee
 - [urlCheck](#urlcheck), Mazrui
@@ -2322,10 +2359,11 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Seeing AI](#seeing-ai), Shaikh
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 
-### Audio and video production (14 apps) {#category-audio-and-video-production}
+### Audio and video production (15 apps) {#category-audio-and-video-production}
 
 - [AllToMidi](#alltomidi), Louis
 - [Audir (Audio Director Manager)](#dlee-audir), Doug Lee
+- [DexedAccessible](#dexedaccessible), Homme
 - [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
 - [ElevenLabs Speech Generator](#elevenlabs-speech), Louis
 - [HomerScribe](#homerscribe), Mazrui
@@ -2420,12 +2458,13 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [nvgt-bridge](#nvgt-bridge), Gillespie
 - [Survive the Wild](#survive-the-wild), Tupy
 
-### Media and listening (9 apps) {#category-media-and-listening}
+### Media and listening (10 apps) {#category-media-and-listening}
 
 - [ACB Link](#acb-link), Doise
-- [BlindRSS](#blindrss), Bracey
+- [BlindRadio](#blindradio), Bracey
 - [BlindRSS for Android](#blindrss-android), Bracey
 - [BlindRSS for iOS](#blindrss-ios), Bracey
+- [BlindRSS](#blindrss), Bracey
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [Mini Load](#mini-load), Dash
 - [News Fusion](#news-fusion), Louis
@@ -2512,7 +2551,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [YouTube JAWS Scripts](#dlee-youtube), Doug Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
 
-### Screen readers and speech (11 apps) {#category-screen-readers-and-speech}
+### Screen readers and speech (12 apps) {#category-screen-readers-and-speech}
 
 - [Apollo II for NVDA](#apollo-ii-nvda), Louis
 - [ClaudeSpeak](#claudespeak), Ford
@@ -2520,6 +2559,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [evvdroid](#evvdroid), Gillespie
 - [JAWS](#jaws), Gordon
 - [NVDA](#nvda), Curran and Teh
+- [Phonon](#phonon), Louis
 - [Prose 2000](#prose-2000), Louis
 - [Samsung Galaxy Voices](#samsung-galaxy-voices), Louis
 - [Samsung TV Voices](#samsung-tv-voices), Louis
@@ -2562,13 +2602,14 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [BrailleBlaster](#brailleblaster)
 - [Liblouis](#liblouis)
 
-### [Brandon Bracey][dev-bracey] (6 apps) {#by-dev-bracey}
+### [Brandon Bracey][dev-bracey] (7 apps) {#by-dev-bracey}
 
 - [BlindFB](#blindfb)
 - [BlindPilot for Android](#blindpilot-android)
-- [BlindRSS](#blindrss)
+- [BlindRadio](#blindradio)
 - [BlindRSS for Android](#blindrss-android)
 - [BlindRSS for iOS](#blindrss-ios)
+- [BlindRSS](#blindrss)
 - [BlindTerm](#blindterm)
 
 ### [Tristen Breitenfeldt][dev-breitenfeldt] (2 apps) {#by-dev-breitenfeldt}
@@ -2653,6 +2694,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [Leasey](#leasey)
 - [Zoom Professional Scripts](#zoom-meetings)
 
+### [Jim Homme][dev-homme] (1 app) {#by-dev-homme}
+
+- [DexedAccessible](#dexedaccessible)
+
 ### [Meriç Karaca][dev-karaca] (2 apps) {#by-dev-karaca}
 
 - [zEdit](#zedit)
@@ -2715,7 +2760,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [StationPlaylist](#stationplaylist)
 - [Windows App Essentials](#windows-app-essentials)
 
-### [Andre "Onj" Louis][dev-louis] (25 apps) {#by-dev-louis}
+### [Andre "Onj" Louis][dev-louis] (26 apps) {#by-dev-louis}
 
 - [AllToMidi](#alltomidi)
 - [Apollo II for NVDA](#apollo-ii-nvda)
@@ -2734,6 +2779,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [News Fusion](#news-fusion)
 - [NVDA Composer](#nvda-composer)
 - [NVDA Sync](#nvda-sync)
+- [Phonon](#phonon)
 - [PortableApps Sync](#portableapps-sync)
 - [Prose 2000](#prose-2000)
 - [Samsung Galaxy Voices](#samsung-galaxy-voices)
@@ -2976,6 +3022,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [wikifusion]: https://github.com/OnjLouis/wikiFusion/releases
 [blindfb]: https://github.com/serrebidev/BlindFB
 [blindpilot-android]: https://github.com/serrebidev/BlindPilot-Android/releases
+[blindradio]: https://github.com/serrebidev/blindradio
 [blindrss]: https://github.com/serrebidev/BlindRSS
 [blindrss-android]: https://github.com/serrebidev/BlindRSS-Android/releases
 [blindrss-ios]: https://github.com/serrebidev/BlindRSS-iOS
@@ -3094,3 +3141,6 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [blind-presenters]: https://jamalmazrui.github.io/BlindPresenters/
 [blind-creators]: https://jamalmazrui.github.io/BlindCreators/
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
+[phonon]: https://apps.apple.com/app/id6828988617
+[dexedaccessible]: https://github.com/jhomme/dexedAccessible
+[dev-homme]: https://jamalmazrui.github.io/BlindDevelopers/#dev-homme
