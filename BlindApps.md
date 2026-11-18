@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 183 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 192 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "November 2026"
-version: "v1.15.1"
+version: "v1.16.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 183 apps and tools made by 46 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 192 apps and tools made by 47 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,17 +47,17 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 183 apps from 46 developers, an average of 4.0 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 192 apps from 47 developers, an average of 4.1 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
-- Windows only: 45 apps.
-- More than one platform: 44 apps.
-- Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 76 apps.
+- Windows only: 48 apps.
+- More than one platform: 45 apps.
+- Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 78 apps.
 - Linux, macOS, and Windows together: 13 apps.
-- Desktop (Linux, macOS, or Windows): 80 apps.
+- Desktop (Linux, macOS, or Windows): 85 apps.
 - Phone or tablet (Android or iOS): 25 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 70 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
@@ -67,22 +67,22 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 73
+- [Windows](#platform-windows): 77
 - [JAWS](#platform-jaws): 44
-- [macOS](#platform-macos): 29
+- [macOS](#platform-macos): 30
 - [NVDA](#platform-nvda): 27
 - [iOS](#platform-ios): 20
+- [Web](#platform-web): 18
 - [Linux](#platform-linux): 16
-- [Web](#platform-web): 15
 - [Android](#platform-android): 13
-- [Claude Code](#platform-claude-code): 4
+- [Claude Code](#platform-claude-code): 5
 - [GitHub Copilot](#platform-github-copilot): 2
+- [REAPER](#platform-reaper): 2
 - [Ableton Move](#platform-ableton-move): 1
 - [Codex CLI](#platform-codex-cli): 1
 - [Fire OS](#platform-fire-os): 1
 - [Gemini CLI](#platform-gemini-cli): 1
 - [Hardware](#platform-hardware): 1
-- [REAPER](#platform-reaper): 1
 - [Wear OS](#platform-wear-os): 1
 
 ### Apps per category {#stats-category}
@@ -90,15 +90,15 @@ Most first; an app on several platforms counts once for each.
 Most first; each app has one category.
 
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 62
-- [Audio and video production](#category-audio-and-video-production): 15
-- [Files and system utilities](#category-files-and-system-utilities): 15
-- [Developer tools and libraries](#category-developer-tools-and-libraries): 14
-- [Productivity and daily living](#category-productivity-and-daily-living): 12
-- [Screen readers and speech](#category-screen-readers-and-speech): 12
+- [Audio and video production](#category-audio-and-video-production): 17
+- [Files and system utilities](#category-files-and-system-utilities): 16
+- [Developer tools and libraries](#category-developer-tools-and-libraries): 15
+- [Productivity and daily living](#category-productivity-and-daily-living): 15
+- [Screen readers and speech](#category-screen-readers-and-speech): 13
 - [Documents and reading](#category-documents-and-reading): 11
 - [Media and listening](#category-media-and-listening): 10
+- [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 7
 - [Communication](#category-communication): 7
-- [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 6
 - [AI and visual assistance](#category-ai-and-visual-assistance): 6
 - [Games and game engines](#category-games-and-game-engines): 5
 - [Braille and tactile](#category-braille-and-tactile): 4
@@ -109,25 +109,25 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 27 apps.
+- Built with the help of an AI: 31 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 143 of the 183 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 152 of the 192 apps; an app written in two languages counts once for each. Most first.
 
 - JAWS scripts: 44
-- Python: 35
-- C#: 10
-- Swift: 7
+- Python: 36
+- C#: 11
+- Swift: 8
+- C++: 7
+- JavaScript: 7
 - Rust: 6
-- C++: 4
-- JavaScript: 4
-- HTML: 3
+- HTML: 5
+- CSS: 3
+- PowerShell: 3
 - C: 2
 - Kotlin: 2
-- PowerShell: 2
 - AngelScript: 1
-- CSS: 1
 - Emacs Lisp: 1
 - Java: 1
 - PHP: 1
@@ -138,33 +138,35 @@ Counted from the Tech field, which is filled in for 143 of the 183 apps; an app 
 
 Engines, frameworks, and services from the Tech field that appear in two or more apps. Most first.
 
-- Claude (to build): 16
+- Claude (to build): 18
 - .NET Framework: 7
 - AI (to build): 6
-- SwiftUI: 5
+- SwiftUI: 6
 - AI vision models: 4
 - Microsoft Edge: 4
 - wxPython: 4
 - FFmpeg: 3
+- Hyper-V: 3
+- WPF: 3
 - wxDragon: 3
 - yt-dlp: 3
+- .NET 10: 2
 - .NET Windows Forms: 2
 - AI-assisted development (to build): 2
 - ARIA: 2
+- ChatGPT (to build): 2
 - Chrome DevTools Protocol: 2
 - ElevenLabs AI: 2
-- Hyper-V: 2
 - Markdown agent files: 2
 - Microsoft Office: 2
 - Progressive web app: 2
-- WPF: 2
 
 ### Where the apps are available {#stats-source}
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 91
-- Developer website: 77
+- GitHub: 97
+- Developer website: 80
 - App Store: 10
 - NVDA Community Add-ons: 2
 - Google Play: 1
@@ -177,11 +179,12 @@ Developers with three or more apps here, most first.
 
 - [Doug Lee](#by-dev-dlee): 47
 - [Andre "Onj" Louis](#by-dev-louis): 26
+- [Kelly Ford](#by-dev-ford): 14
 - [Jamal Mazrui](#by-dev-mazrui): 12
-- [Kelly Ford](#by-dev-ford): 11
 - [Brandon Bracey](#by-dev-bracey): 7
 - [Tony Gebhard](#by-dev-gebhard): 7
 - [Quin Gillespie](#by-dev-gillespie): 6
+- [James "Jamie" Teh](#by-dev-teh): 6
 - [Taylor Arndt](#by-dev-arndt): 5
 - [Jeff Bishop](#by-dev-bishop): 4
 - [Joseph Lee](#by-dev-jlee): 4
@@ -353,6 +356,16 @@ Brings local UK English speech to NVDA, either as the original Apollo II Reborn 
 - Developer: [Andre "Onj" Louis][dev-louis]
 - Platform: NVDA
 
+### [App2Clap][app2clap] {#app2clap}
+
+Three CLAP plug-ins for Windows that capture audio from a chosen application or device into an audio workstation, or send audio out to a chosen device.
+
+- Available from: Developer website
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [James "Jamie" Teh][dev-teh]
+- Platform: Windows
+- Tech: C++, CLAP
+
 ### [ART (Accessibility Reporting Tool)][art] {#art}
 
 A local-first, keyboard-friendly workspace for recording accessibility findings against WCAG and exporting reports to Word, Excel, PDF, and HTML.
@@ -373,6 +386,16 @@ JAWS scripts for the Audible app for Windows 10.
 - Platform: JAWS
 - Tech: JAWS scripts
 
+### [audio-demo and sr-test][audio-demo] {#audio-demo}
+
+Claude Code skills that make a spoken audio demo of a Windows app, with AI hosts between real screen reader recordings, and check an app's NVDA or Narrator speech against what each key press should say.
+
+- Available from: GitHub
+- Category: [Developer tools and libraries](#category-developer-tools-and-libraries)
+- Developer: [Kelly Ford][dev-ford]
+- Platform: Claude Code, Windows
+- Tech: Claude (to build), Hyper-V, Kokoro, PowerShell, Python
+
 ### [Audir (Audio Director Manager)][dlee-audir] {#dlee-audir}
 
 Creates, launches and manages the programs that direct or repeat audio among devices and files, chiefly Virtual Audio Cable and SoX; formerly called Vacro.
@@ -392,6 +415,16 @@ Installs and runs Windows 11 virtual machines on an Apple Silicon Mac entirely t
 - Developer: [Allison Meloy][dev-meloy]
 - Platform: macOS
 - Tech: AI (to build), Swift, SwiftUI
+
+### [AxSGrease][axsgrease] {#axsgrease}
+
+User scripts that fix accessibility problems on particular websites, such as Bugzilla, GitHub and Google Docs, through a browser's user script manager.
+
+- Available from: GitHub
+- Category: [Accessibility testing and remediation](#category-accessibility-testing-and-remediation)
+- Developer: [James "Jamie" Teh][dev-teh]
+- Platform: Web
+- Tech: JavaScript, user scripts
 
 ## B {#letter-b}
 
@@ -523,6 +556,16 @@ Adds fast, structured navigation of web and document content to NVDA.
 - Developer: [Tony Malykh][dev-malykh]
 - Platform: NVDA
 - Tech: Python
+
+### [Budget Tracker][budget-tracker] {#budget-tracker}
+
+A web page for tracking income and expenses, with dates received, due and paid, and a running balance.
+
+- Available from: GitHub, as a live page; its source is in the [repository][budget-tracker-source]
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Elizabeth Huffman][dev-huffman]
+- Platform: Web
+- Tech: ChatGPT (to build), CSS, HTML, JavaScript
 
 ### [BX, the JAWS Toolbox][dlee-bx] {#dlee-bx}
 
@@ -1287,6 +1330,16 @@ A fast document and e-book reader that opens EPUB, PDF, MOBI, audiobooks, and ma
 - Platform: Android, Linux, macOS, Windows
 - Tech: MathCAT, Rust, wxDragon
 
+### [Parallels Manager][parallels-manager] {#parallels-manager}
+
+A Mac app for managing Parallels Desktop virtual machines with VoiceOver and the keyboard, and for making new Windows 11 and Ubuntu machines with no installer questions.
+
+- Available from: GitHub
+- Category: [Files and system utilities](#category-files-and-system-utilities)
+- Developer: [Kelly Ford][dev-ford]
+- Platform: macOS
+- Tech: Claude (to build), Swift, SwiftUI
+
 ### [Perspective Intelligence][perspective-intelligence] {#perspective-intelligence}
 
 A private AI assistant that chats, transcribes audio, and recognizes text in images, all on the device.
@@ -1354,6 +1407,16 @@ An accessible reader for documents and books.
 - Developer: [Christopher "Q" Toth][dev-toth]
 - Platform: Windows
 
+### [QuickCalc][quickcalc] {#quickcalc}
+
+An experimental Windows calculator built for JAWS, NVDA and Narrator first: type a whole calculation, press Enter, and hear the answer without focus moving.
+
+- Available from: GitHub
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Kelly Ford][dev-ford]
+- Platform: Windows
+- Tech: C#, .NET 10, WPF
+
 ### [QuickMail][quickmail] {#quickmail}
 
 A screen-reader-friendly email client for IMAP servers, with conversations, flags, attachments, and shared mailboxes.
@@ -1394,6 +1457,16 @@ Scripts for the Ramblio social media platform that make audio posts quicker to s
 - Developer: [Doug Lee][dev-dlee]
 - Platform: JAWS
 - Tech: JAWS scripts
+
+### [ReaKontrol][reakontrol] {#reakontrol}
+
+A REAPER extension that integrates Native Instruments Komplete Kontrol keyboards with REAPER and reports their changes to screen reader users.
+
+- Available from: Developer website
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [James "Jamie" Teh][dev-teh]
+- Platform: REAPER
+- Tech: C++
 
 ### [Remote Incident Manager][rim] {#rim}
 
@@ -1626,6 +1699,16 @@ Sixteen AI coding agents that enforce modern Swift practices, VoiceOver accessib
 - Developer: [Taylor Arndt][dev-arndt]
 - Platform: Claude Code, GitHub Copilot
 - Tech: Markdown agent files, Swift, SwiftUI
+
+### [Syntherceptor][syntherceptor] {#syntherceptor}
+
+A SAPI 5 voice for Windows that speaks through NVDA, so programs that talk through SAPI 5 use NVDA's own voice and settings and can be interrupted with a key.
+
+- Available from: Developer website
+- Category: [Screen readers and speech](#category-screen-readers-and-speech)
+- Developer: [James "Jamie" Teh][dev-teh]
+- Platform: Windows
+- Tech: C++, NSIS, SAPI 5
 
 ## T {#letter-t}
 
@@ -1991,6 +2074,16 @@ Makes web views embedded in Python desktop apps report correctly to screen reade
 
 ## Y {#letter-y}
 
+### [Your Medication Station][your-medication-station] {#your-medication-station}
+
+A screen-reader-friendly web page for recording medications for people and pets, with dosage, frequency, reminder times and notes.
+
+- Available from: GitHub, as a live page; its source is in the [repository][your-medication-station-source]
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Elizabeth Huffman][dev-huffman]
+- Platform: Web
+- Tech: ChatGPT (to build), CSS, HTML, JavaScript
+
 ### [YouTube JAWS Scripts][dlee-youtube] {#dlee-youtube}
 
 JAWS scripts for YouTube, for JAWS 17 or later.
@@ -2056,9 +2149,10 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [WayAround](#wayaround), Doise
 - [zEdit](#zedit), Karaca
 
-### Claude Code (4 apps) {#platform-claude-code}
+### Claude Code (5 apps) {#platform-claude-code}
 
 - [Accessibility Agents](#accessibility-agents), Arndt and Bishop
+- [audio-demo and sr-test](#audio-demo), Ford
 - [ClaudeSpeak](#claudespeak), Ford
 - [Swift Agents](#swift-agent-team), Arndt
 - [vmtest](#vmtest), Ford
@@ -2173,7 +2267,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [tdsr](#tdsr), Spivey
 - [TTCom](#ttcom), Doug Lee
 
-### macOS (29 apps) {#platform-macos}
+### macOS (30 apps) {#platform-macos}
 
 - [AccessKit](#accesskit), Campbell
 - [AccessTerm](#accessterm), Meloy
@@ -2195,6 +2289,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Native Serials](#native-serials), Louis
 - [NVGT](#nvgt), Tupy
 - [Paperback](#paperback), Gillespie
+- [Parallels Manager](#parallels-manager), Ford
 - [Perspective Intelligence](#perspective-intelligence), Doise
 - [Quill](#quill), Bishop and Arndt
 - [Remote Incident Manager](#rim), Campbell
@@ -2235,19 +2330,22 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [WikiFusion](#wikifusion), Louis
 - [Windows App Essentials](#windows-app-essentials), Joseph Lee
 
-### REAPER (1 app) {#platform-reaper}
+### REAPER (2 apps) {#platform-reaper}
 
 - [OSARA](#osara), Teh
+- [ReaKontrol](#reakontrol), Teh
 
 ### Wear OS (1 app) {#platform-wear-os}
 
 - [evvdroid](#evvdroid), Gillespie
 
-### Web (15 apps) {#platform-web}
+### Web (18 apps) {#platform-web}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [ART (Accessibility Reporting Tool)](#art), Breitenfeldt
+- [AxSGrease](#axsgrease), Teh
+- [Budget Tracker](#budget-tracker), Huffman
 - [CAPTCHA Be Gone](#captcha-be-gone), Toth
 - [The Card Place](#card-place), Ford
 - [FRAME PDF Studio](#frame-pdf-studio), Breitenfeldt
@@ -2260,14 +2358,17 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 - [WeatherFast](#weatherfast), Ford
+- [Your Medication Station](#your-medication-station), Huffman
 
-### Windows (73 apps) {#platform-windows}
+### Windows (77 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
 - [AccessKit](#accesskit), Campbell
 - [AllToMidi](#alltomidi), Louis
 - [American Explorer](#american-explorer), Gebhard
+- [App2Clap](#app2clap), Teh
+- [audio-demo and sr-test](#audio-demo), Ford
 - [Audir (Audio Director Manager)](#dlee-audir), Doug Lee
 - [BatCon](#batcon), Mazrui
 - [BlindFB](#blindfb), Bracey
@@ -2305,16 +2406,18 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Mini Load](#mini-load), Dash
 - [MoveToMidi](#movetomidi), Louis
 - [Native Serials](#native-serials), Louis
-- [NVDA Sync](#nvda-sync), Louis
 - [NVDA](#nvda), Curran and Teh
+- [NVDA Sync](#nvda-sync), Louis
 - [NVGT](#nvgt), Tupy
 - [Paperback](#paperback), Gillespie
 - [PlanCake](#plancake), Polykanine
 - [PortableApps Sync](#portableapps-sync), Louis
+- [The Prompt Vault](#prompt-vault), Gebhard
 - [QRead](#qread), Toth
+- [QuickCalc](#quickcalc), Ford
 - [QuickMail](#quickmail), Ford
-- [Quill Radio](#quill-radio), Bishop
 - [Quill](#quill), Bishop and Arndt
+- [Quill Radio](#quill-radio), Bishop
 - [Remote Incident Manager](#rim), Campbell
 - [RSS Quick](#rss-quick), Ford
 - [ScanMaster](#scanmaster), Moodley
@@ -2322,12 +2425,12 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [SIC! (Simple Image Converter)](#sic), Polykanine
 - [Sports Scores](#sports-scores), Ford
 - [Survive the Wild](#survive-the-wild), Tupy
+- [Syntherceptor](#syntherceptor), Teh
 - [taskmon](#taskmon), Gillespie
 - [TD Sound Manager](#td-sound-manager), Dash
 - [TG Drop Deck](#tg-drop-deck), Gebhard
 - [TG Imprint](#tg-imprint), Gebhard
 - [TG Spaces](#tg-spaces), Gebhard
-- [The Prompt Vault](#prompt-vault), Gebhard
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [TTCom](#ttcom), Doug Lee
 - [urlCheck](#urlcheck), Mazrui
@@ -2341,10 +2444,11 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 
 Categories in alphabetical order, each with its apps ordered by title.
 
-### Accessibility testing and remediation (6 apps) {#category-accessibility-testing-and-remediation}
+### Accessibility testing and remediation (7 apps) {#category-accessibility-testing-and-remediation}
 
 - [Accessibility Agents](#accessibility-agents), Arndt and Bishop
 - [ART (Accessibility Reporting Tool)](#art), Breitenfeldt
+- [AxSGrease](#axsgrease), Teh
 - [extCheck](#extcheck), Mazrui
 - [FRAME PDF Studio](#frame-pdf-studio), Breitenfeldt
 - [GLOW Accessibility Toolkit](#glow), Bishop
@@ -2359,9 +2463,10 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Seeing AI](#seeing-ai), Shaikh
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 
-### Audio and video production (15 apps) {#category-audio-and-video-production}
+### Audio and video production (17 apps) {#category-audio-and-video-production}
 
 - [AllToMidi](#alltomidi), Louis
+- [App2Clap](#app2clap), Teh
 - [Audir (Audio Director Manager)](#dlee-audir), Doug Lee
 - [DexedAccessible](#dexedaccessible), Homme
 - [ElevenLabs Music and Sound FX Generator](#elevenlabs-music), Louis
@@ -2373,6 +2478,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Native Serials](#native-serials), Louis
 - [NVDA Composer](#nvda-composer), Louis
 - [OSARA](#osara), Teh
+- [ReaKontrol](#reakontrol), Teh
 - [TG Drop Deck](#tg-drop-deck), Gebhard
 - [TG Spaces](#tg-spaces), Gebhard
 - [zEdit](#zedit), Karaca
@@ -2394,12 +2500,13 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TTCom](#ttcom), Doug Lee
 - [Zerogram](#zerogram), Karaca
 
-### Developer tools and libraries (14 apps) {#category-developer-tools-and-libraries}
+### Developer tools and libraries (15 apps) {#category-developer-tools-and-libraries}
 
 - [AccDC API](#accdc), Garaventa
 - [AccDC Technical Style Guide](#tsg), Garaventa
 - [AccessKit](#accesskit), Campbell
 - [AccessTerm](#accessterm), Meloy
+- [audio-demo and sr-test](#audio-demo), Ford
 - [BlindTerm](#blindterm), Bracey
 - [Codestats](#codestats), Gillespie
 - [GHManage](#ghmanage), Ford
@@ -2432,7 +2539,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TifloAcosta App](#tifloacosta-app), Acosta
 - [Word Champion](#word-champion), Gebhard
 
-### Files and system utilities (15 apps) {#category-files-and-system-utilities}
+### Files and system utilities (16 apps) {#category-files-and-system-utilities}
 
 - [AVM (Accessible Virtual Machine)](#avm), Meloy
 - [BatCon](#batcon), Mazrui
@@ -2441,6 +2548,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [FileDir](#filedir), Mazrui
 - [Hyper-V Manage](#hyperv-manage), Ford
 - [NVDA Sync](#nvda-sync), Louis
+- [Parallels Manager](#parallels-manager), Ford
 - [PortableApps Sync](#portableapps-sync), Louis
 - [Remote Incident Manager](#rim), Campbell
 - [Sensor Readout](#sensor-readout), Louis
@@ -2471,20 +2579,23 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Quill Radio](#quill-radio), Bishop
 - [Sports Scores](#sports-scores), Ford
 
-### Productivity and daily living (12 apps) {#category-productivity-and-daily-living}
+### Productivity and daily living (15 apps) {#category-productivity-and-daily-living}
 
 - [Bookmark Tree (bmt)](#dlee-bmt), Doug Lee
+- [Budget Tracker](#budget-tracker), Huffman
 - [CAPTCHA Be Gone](#captcha-be-gone), Toth
 - [Date Parser](#date-parser), Louis
 - [DbDo](#dbdo), Mazrui
 - [Intersector](#intersector), Salsiccia
 - [NFB 2026 Convention Web App](#nfb26), Meddaugh
 - [The Prompt Vault](#prompt-vault), Gebhard
+- [QuickCalc](#quickcalc), Ford
 - [ReVision Fitness](#revision-fitness), Merren
 - [Start Testing](#start-testing), Arndt
 - [VAL: Voice, Alarm & Chimes](#val), Williams
 - [WayAround](#wayaround), Doise
 - [WeatherFast](#weatherfast), Ford
+- [Your Medication Station](#your-medication-station), Huffman
 
 ### Screen reader add-ons and scripts (62 apps) {#category-screen-reader-add-ons-and-scripts}
 
@@ -2551,7 +2662,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [YouTube JAWS Scripts](#dlee-youtube), Doug Lee
 - [Zoom Professional Scripts](#zoom-meetings), Hartgen
 
-### Screen readers and speech (12 apps) {#category-screen-readers-and-speech}
+### Screen readers and speech (13 apps) {#category-screen-readers-and-speech}
 
 - [Apollo II for NVDA](#apollo-ii-nvda), Louis
 - [ClaudeSpeak](#claudespeak), Ford
@@ -2563,6 +2674,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Prose 2000](#prose-2000), Louis
 - [Samsung Galaxy Voices](#samsung-galaxy-voices), Louis
 - [Samsung TV Voices](#samsung-tv-voices), Louis
+- [Syntherceptor](#syntherceptor), Teh
 - [tdsr](#tdsr), Spivey
 - [VoiceView](#voiceview), Mulcahy
 
@@ -2642,14 +2754,17 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 
 - [LWorks Audio Games](#lworks)
 
-### [Kelly Ford][dev-ford] (11 apps) {#by-dev-ford}
+### [Kelly Ford][dev-ford] (14 apps) {#by-dev-ford}
 
 - [Accessible Live Captions](#accessible-live-captions)
+- [audio-demo and sr-test](#audio-demo)
 - [The Card Place](#card-place)
 - [ClaudeSpeak](#claudespeak)
 - [GHManage](#ghmanage)
 - [Hyper-V Manage](#hyperv-manage)
 - [Image Description Toolkit](#image-description-toolkit)
+- [Parallels Manager](#parallels-manager)
+- [QuickCalc](#quickcalc)
 - [QuickMail](#quickmail)
 - [RSS Quick](#rss-quick)
 - [Sports Scores](#sports-scores)
@@ -2697,6 +2812,11 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 ### [Jim Homme][dev-homme] (1 app) {#by-dev-homme}
 
 - [DexedAccessible](#dexedaccessible)
+
+### [Elizabeth Huffman][dev-huffman] (2 apps) {#by-dev-huffman}
+
+- [Budget Tracker](#budget-tracker)
+- [Your Medication Station](#your-medication-station)
 
 ### [Meriç Karaca][dev-karaca] (2 apps) {#by-dev-karaca}
 
@@ -2871,10 +2991,14 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [NVDA Remote](#nvda-remote)
 - [tdsr](#tdsr)
 
-### [James "Jamie" Teh][dev-teh] (2 apps) {#by-dev-teh}
+### [James "Jamie" Teh][dev-teh] (6 apps) {#by-dev-teh}
 
+- [App2Clap](#app2clap)
+- [AxSGrease](#axsgrease)
 - [NVDA](#nvda)
 - [OSARA](#osara)
+- [ReaKontrol](#reakontrol)
+- [Syntherceptor](#syntherceptor)
 
 ### [Carter Temm][dev-temm] (1 app) {#by-dev-temm}
 
@@ -2933,7 +3057,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [homerdev]: https://github.com/JamalMazrui/HomerDev
 [homerscribe]: https://github.com/JamalMazrui/HomerScribe
 [homerview]: https://github.com/JamalMazrui/HomerView
-[hyperv-manage]: https://github.com/kellylford/TheWorkBench
+[hyperv-manage]: https://github.com/TheIdeaPlace/HyperVManage
 [image-description-toolkit]: https://github.com/kellylford/Image-Description-Toolkit
 [indentnav]: https://addons.nvda-project.org/addons/IndentNav.da.html
 [iridium]: https://github.com/Oire/Iridium-php
@@ -3076,6 +3200,17 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dlee-iaxrpt]: https://www.dlee.org/ham/iaxrpt/
 [dlee-winlink]: https://dlee.org/ham/
 [batcon]: https://github.com/JamalMazrui/BatCon
+[app2clap]: https://app2clap.jantrid.net/
+[audio-demo]: https://github.com/kellylford/TheWorkBench/tree/main/audio-demo
+[axsgrease]: https://github.com/jcsteh/axSGrease
+[budget-tracker]: https://ehuffman1706.github.io/Budget-App-HTML/
+[budget-tracker-source]: https://github.com/EHuffman1706/Budget-App-HTML
+[parallels-manager]: https://github.com/TheIdeaPlace/ParallelsManager
+[quickcalc]: https://github.com/kellylford/TheWorkBench/tree/main/quickcalc
+[reakontrol]: https://reakontrol.jantrid.net/
+[syntherceptor]: https://syntherceptor.jantrid.net/
+[your-medication-station]: https://ehuffman1706.github.io/YourMedicationStation/
+[your-medication-station-source]: https://github.com/EHuffman1706/YourMedicationStation
 [dev-acosta]: https://jamalmazrui.github.io/BlindDevelopers/#dev-acosta
 [dev-adams]: https://jamalmazrui.github.io/BlindDevelopers/#dev-adams
 [dev-apollaro]: https://jamalmazrui.github.io/BlindDevelopers/#dev-apollaro
@@ -3144,3 +3279,4 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [phonon]: https://apps.apple.com/app/id6828988617
 [dexedaccessible]: https://github.com/jhomme/dexedAccessible
 [dev-homme]: https://jamalmazrui.github.io/BlindDevelopers/#dev-homme
+[dev-huffman]: https://jamalmazrui.github.io/BlindDevelopers/#dev-huffman
