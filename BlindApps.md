@@ -1,10 +1,10 @@
 ---
 title: "Blind Apps"
-subtitle: "A Directory of 192 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
+subtitle: "A Directory of 196 Apps and Tools Created by Developers Who Are Blind or Have Low Vision"
 description: "A directory of apps and tools made by blind and low-vision developers, with a link to each, its platforms, its technology, and statistics about the collection."
 author: "Jamal Mazrui"
 date: "November 2026"
-version: "v1.16.0"
+version: "v1.17.0"
 lang: en-US
 license: "CC BY-SA 4.0"
 license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -21,7 +21,7 @@ keywords:
 
 ## Introduction {#introduction}
 
-This directory lists 192 apps and tools made by 47 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
+This directory lists 196 apps and tools made by 48 developers who are blind or have low vision. It is a companion to [Blind Developers][blind-developers], which profiles the people. This page puts the apps first, so you can find a tool by name, platform, or purpose.
 
 An app is included when all of the following are true, the same tests Blind Developers uses:
 
@@ -47,17 +47,17 @@ Each app belongs to its developer and keeps its own license. This directory's ow
 
 ## By the Numbers {#by-the-numbers}
 
-The directory holds 192 apps from 47 developers, an average of 4.1 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
+The directory holds 196 apps from 48 developers, an average of 4.1 apps per developer (median 2). Of these, 21 developers have one app each; the most prolific are listed below.
 
 ### Reach across platforms {#stats-reach}
 
 A platform is the kind of place an app runs: an operating system, the web, a device, or another program the app lives inside, such as a screen reader, the REAPER audio workstation, a music device's own software, or an AI coding tool.
 
-- Windows only: 48 apps.
+- Windows only: 52 apps.
 - More than one platform: 45 apps.
 - Living inside another program (a screen reader, REAPER, a music device's software, or an AI coding tool): 78 apps.
 - Linux, macOS, and Windows together: 13 apps.
-- Desktop (Linux, macOS, or Windows): 85 apps.
+- Desktop (Linux, macOS, or Windows): 89 apps.
 - Phone or tablet (Android or iOS): 25 apps, of which 8 run on both.
 - Screen reader extensions (JAWS scripts and NVDA add-ons): 70 apps.
 - Widest reach: [Clipman](#clipman), on 5 platforms (Android, iOS, Linux, macOS, Windows).
@@ -67,7 +67,7 @@ A platform is the kind of place an app runs: an operating system, the web, a dev
 
 Most first; an app on several platforms counts once for each.
 
-- [Windows](#platform-windows): 77
+- [Windows](#platform-windows): 81
 - [JAWS](#platform-jaws): 44
 - [macOS](#platform-macos): 30
 - [NVDA](#platform-nvda): 27
@@ -90,17 +90,17 @@ Most first; an app on several platforms counts once for each.
 Most first; each app has one category.
 
 - [Screen reader add-ons and scripts](#category-screen-reader-add-ons-and-scripts): 62
-- [Audio and video production](#category-audio-and-video-production): 17
+- [Audio and video production](#category-audio-and-video-production): 18
 - [Files and system utilities](#category-files-and-system-utilities): 16
+- [Productivity and daily living](#category-productivity-and-daily-living): 16
 - [Developer tools and libraries](#category-developer-tools-and-libraries): 15
-- [Productivity and daily living](#category-productivity-and-daily-living): 15
 - [Screen readers and speech](#category-screen-readers-and-speech): 13
 - [Documents and reading](#category-documents-and-reading): 11
-- [Media and listening](#category-media-and-listening): 10
+- [Media and listening](#category-media-and-listening): 11
 - [Accessibility testing and remediation](#category-accessibility-testing-and-remediation): 7
 - [Communication](#category-communication): 7
 - [AI and visual assistance](#category-ai-and-visual-assistance): 6
-- [Games and game engines](#category-games-and-game-engines): 5
+- [Games and game engines](#category-games-and-game-engines): 6
 - [Braille and tactile](#category-braille-and-tactile): 4
 - [Education and training](#category-education-and-training): 4
 
@@ -109,19 +109,19 @@ Most first; each app has one category.
 From the Tech field, where "(to build)" marks an AI used to make the app rather than one the app uses.
 
 - Using AI while it runs: 14 apps.
-- Built with the help of an AI: 31 apps.
+- Built with the help of an AI: 32 apps.
 
 ### Programming languages {#stats-languages}
 
-Counted from the Tech field, which is filled in for 152 of the 192 apps; an app written in two languages counts once for each. Most first.
+Counted from the Tech field, which is filled in for 156 of the 196 apps; an app written in two languages counts once for each. Most first.
 
 - JAWS scripts: 44
-- Python: 36
-- C#: 11
+- Python: 38
+- C#: 12
 - Swift: 8
 - C++: 7
 - JavaScript: 7
-- Rust: 6
+- Rust: 7
 - HTML: 5
 - CSS: 3
 - PowerShell: 3
@@ -138,7 +138,7 @@ Counted from the Tech field, which is filled in for 152 of the 192 apps; an app 
 
 Engines, frameworks, and services from the Tech field that appear in two or more apps. Most first.
 
-- Claude (to build): 18
+- Claude (to build): 19
 - .NET Framework: 7
 - AI (to build): 6
 - SwiftUI: 6
@@ -150,8 +150,8 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 - WPF: 3
 - wxDragon: 3
 - yt-dlp: 3
-- .NET 10: 2
-- .NET Windows Forms: 2
+- .NET 10: 3
+- .NET Windows Forms: 3
 - AI-assisted development (to build): 2
 - ARIA: 2
 - ChatGPT (to build): 2
@@ -160,12 +160,13 @@ Engines, frameworks, and services from the Tech field that appear in two or more
 - Markdown agent files: 2
 - Microsoft Office: 2
 - Progressive web app: 2
+- Tolk: 2
 
 ### Where the apps are available {#stats-source}
 
 Counted by each app's main link. GitHub links usually mean the source code is public.
 
-- GitHub: 97
+- GitHub: 101
 - Developer website: 80
 - App Store: 10
 - NVDA Community Add-ons: 2
@@ -188,6 +189,7 @@ Developers with three or more apps here, most first.
 - [Taylor Arndt](#by-dev-arndt): 5
 - [Jeff Bishop](#by-dev-bishop): 4
 - [Joseph Lee](#by-dev-jlee): 4
+- [Luke Leiby](#by-dev-leiby): 4
 - [Tony Malykh](#by-dev-malykh): 4
 - [Dash](#by-dev-dash): 3
 - [Michael Doise](#by-dev-doise): 3
@@ -902,6 +904,16 @@ JAWS scripts for the Hayaemon audio player.
 - Developer: [Doug Lee][dev-dlee]
 - Platform: JAWS
 - Tech: JAWS scripts
+
+### [HearthstoneAccess Patcher][hearthstone-patcher] {#hearthstone-patcher}
+
+Downloads the HearthstoneAccess Community Patch and installs it into Hearthstone, so blind players can set up and update the accessible version of the card game on their own, then offers to put the patch's changelog on the desktop.
+
+- Available from: GitHub
+- Category: [Games and game engines](#category-games-and-game-engines)
+- Developer: [Luke Leiby][dev-leiby]
+- Platform: Windows
+- Tech: C#, .NET 10, .NET Windows Forms
 
 ### [HomerDev][homerdev] {#homerdev}
 
@@ -1662,6 +1674,16 @@ Brings scores, standings, stats, news, play-by-play, and box scores for professi
 - Developer: [Kelly Ford][dev-ford]
 - Platform: iOS, Windows
 
+### [SpotKeys][spotkeys] {#spotkeys}
+
+Global keyboard shortcuts that control Spotify, speak the current track's details through the screen reader, and add or remove songs from your library without leaving the window you are working in; because of Spotify's limits, the developer approves each user.
+
+- Available from: GitHub
+- Category: [Media and listening](#category-media-and-listening)
+- Developer: [Luke Leiby][dev-leiby]
+- Platform: Windows
+- Tech: Python, Spotify Web API, Tolk
+
 ### [Start Testing][start-testing] {#start-testing}
 
 An accessible project management platform for tasks, bugs, milestones, reviews, and releases.
@@ -1817,6 +1839,16 @@ A free web app in Spanish and English that gathers guides, courses, news, and vi
 - Developer: [Tony Acosta][dev-acosta]
 - Platform: Android, iOS, Web, Windows
 - Tech: Progressive web app
+
+### [Time Zone Teller][time-zone-teller] {#time-zone-teller}
+
+Speaks the current time in several time zones through the screen reader at a single keyboard shortcut.
+
+- Available from: GitHub
+- Category: [Productivity and daily living](#category-productivity-and-daily-living)
+- Developer: [Luke Leiby][dev-leiby]
+- Platform: Windows
+- Tech: Python, Tolk
 
 ### [Tony's Enhancements][tonys-enhancements] {#tonys-enhancements}
 
@@ -2002,6 +2034,16 @@ A clutter-free weather app built by and for screen reader users, with conditions
 - Developer: [Kelly Ford][dev-ford]
 - Platform: iOS, Web, Windows
 - Tech: HTML, JavaScript, Open-Meteo, Python, Swift, SwiftUI, wxPython
+
+### [What Was That][what-was-that] {#what-was-that}
+
+Keeps the last 30 seconds of what the computer plays and what its microphone hears, and saves them together as a WAV file at a hotkey.
+
+- Available from: GitHub
+- Category: [Audio and video production](#category-audio-and-video-production)
+- Developer: [Luke Leiby][dev-leiby]
+- Platform: Windows
+- Tech: Claude (to build), Rust
 
 ### [WhatsApp JAWS Scripts][dlee-whatsapp] {#dlee-whatsapp}
 
@@ -2360,7 +2402,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [WeatherFast](#weatherfast), Ford
 - [Your Medication Station](#your-medication-station), Huffman
 
-### Windows (77 apps) {#platform-windows}
+### Windows (81 apps) {#platform-windows}
 
 - [2htm](#app-2htm), Mazrui
 - [Accessible Live Captions](#accessible-live-captions), Ford
@@ -2394,6 +2436,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [GHManage](#ghmanage), Ford
 - [GitHub Downloader](#github-downloader), Apollaro
+- [HearthstoneAccess Patcher](#hearthstone-patcher), Leiby
 - [HomerDev](#homerdev), Mazrui
 - [HomerScribe](#homerscribe), Mazrui
 - [Hyper-V Manage](#hyperv-manage), Ford
@@ -2424,6 +2467,7 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [Sensor Readout](#sensor-readout), Louis
 - [SIC! (Simple Image Converter)](#sic), Polykanine
 - [Sports Scores](#sports-scores), Ford
+- [SpotKeys](#spotkeys), Leiby
 - [Survive the Wild](#survive-the-wild), Tupy
 - [Syntherceptor](#syntherceptor), Teh
 - [taskmon](#taskmon), Gillespie
@@ -2432,11 +2476,13 @@ Platforms in alphabetical order, each with its apps ordered by title. An app on 
 - [TG Imprint](#tg-imprint), Gebhard
 - [TG Spaces](#tg-spaces), Gebhard
 - [TifloAcosta App](#tifloacosta-app), Acosta
+- [Time Zone Teller](#time-zone-teller), Leiby
 - [TTCom](#ttcom), Doug Lee
 - [urlCheck](#urlcheck), Mazrui
 - [urlFido](#urlfido), Mazrui
 - [vmtest](#vmtest), Ford
 - [WeatherFast](#weatherfast), Ford
+- [What Was That](#what-was-that), Leiby
 - [Word Champion](#word-champion), Gebhard
 - [wx-accessible-webview](#wx-accessible-webview), Arndt
 
@@ -2463,7 +2509,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [Seeing AI](#seeing-ai), Shaikh
 - [Vision AI Assistant](#vision-ai-assistant), Lovely
 
-### Audio and video production (17 apps) {#category-audio-and-video-production}
+### Audio and video production (18 apps) {#category-audio-and-video-production}
 
 - [AllToMidi](#alltomidi), Louis
 - [App2Clap](#app2clap), Teh
@@ -2481,6 +2527,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [ReaKontrol](#reakontrol), Teh
 - [TG Drop Deck](#tg-drop-deck), Gebhard
 - [TG Spaces](#tg-spaces), Gebhard
+- [What Was That](#what-was-that), Leiby
 - [zEdit](#zedit), Karaca
 
 ### Braille and tactile (4 apps) {#category-braille-and-tactile}
@@ -2558,28 +2605,30 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [TD Sound Manager](#td-sound-manager), Dash
 - [urlFido](#urlfido), Mazrui
 
-### Games and game engines (5 apps) {#category-games-and-game-engines}
+### Games and game engines (6 apps) {#category-games-and-game-engines}
 
 - [The Card Place](#card-place), Ford
+- [HearthstoneAccess Patcher](#hearthstone-patcher), Leiby
 - [LWorks Audio Games](#lworks), Erven
 - [NVGT](#nvgt), Tupy
 - [nvgt-bridge](#nvgt-bridge), Gillespie
 - [Survive the Wild](#survive-the-wild), Tupy
 
-### Media and listening (10 apps) {#category-media-and-listening}
+### Media and listening (11 apps) {#category-media-and-listening}
 
 - [ACB Link](#acb-link), Doise
 - [BlindRadio](#blindradio), Bracey
+- [BlindRSS](#blindrss), Bracey
 - [BlindRSS for Android](#blindrss-android), Bracey
 - [BlindRSS for iOS](#blindrss-ios), Bracey
-- [BlindRSS](#blindrss), Bracey
 - [FM-DX Servers Lister](#fmdx-servers-lister), Dash
 - [Mini Load](#mini-load), Dash
 - [News Fusion](#news-fusion), Louis
 - [Quill Radio](#quill-radio), Bishop
 - [Sports Scores](#sports-scores), Ford
+- [SpotKeys](#spotkeys), Leiby
 
-### Productivity and daily living (15 apps) {#category-productivity-and-daily-living}
+### Productivity and daily living (16 apps) {#category-productivity-and-daily-living}
 
 - [Bookmark Tree (bmt)](#dlee-bmt), Doug Lee
 - [Budget Tracker](#budget-tracker), Huffman
@@ -2592,6 +2641,7 @@ Categories in alphabetical order, each with its apps ordered by title.
 - [QuickCalc](#quickcalc), Ford
 - [ReVision Fitness](#revision-fitness), Merren
 - [Start Testing](#start-testing), Arndt
+- [Time Zone Teller](#time-zone-teller), Leiby
 - [VAL: Voice, Alarm & Chimes](#val), Williams
 - [WayAround](#wayaround), Doise
 - [WeatherFast](#weatherfast), Ford
@@ -2880,6 +2930,13 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 - [StationPlaylist](#stationplaylist)
 - [Windows App Essentials](#windows-app-essentials)
 
+### [Luke Leiby][dev-leiby] (4 apps) {#by-dev-leiby}
+
+- [HearthstoneAccess Patcher](#hearthstone-patcher)
+- [SpotKeys](#spotkeys)
+- [Time Zone Teller](#time-zone-teller)
+- [What Was That](#what-was-that)
+
 ### [Andre "Onj" Louis][dev-louis] (26 apps) {#by-dev-louis}
 
 - [AllToMidi](#alltomidi)
@@ -3151,6 +3208,10 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [blindrss-android]: https://github.com/serrebidev/BlindRSS-Android/releases
 [blindrss-ios]: https://github.com/serrebidev/BlindRSS-iOS
 [blindterm]: https://github.com/serrebidev/BlindTerm/releases
+[hearthstone-patcher]: https://github.com/leibylucw/hearthstone-access-patcher/releases
+[spotkeys]: https://github.com/leibylucw/spot-keys
+[time-zone-teller]: https://github.com/leibylucw/time-zone-teller
+[what-was-that]: https://github.com/leibylucw/what_was_that
 [accessterm]: https://github.com/allisonfm85/AccessTerm
 [avm]: https://github.com/allisonfm85/accessible-virtual-machine
 [dlee-3cx]: https://dlee.org/3cx/
@@ -3234,6 +3295,7 @@ Developers in alphabetical order by surname, each with apps ordered by title. Ea
 [dev-karaca]: https://jamalmazrui.github.io/BlindDevelopers/#dev-karaca
 [dev-dlee]: https://jamalmazrui.github.io/BlindDevelopers/#dev-dlee
 [dev-jlee]: https://jamalmazrui.github.io/BlindDevelopers/#dev-jlee
+[dev-leiby]: https://jamalmazrui.github.io/BlindDevelopers/#dev-leiby
 [dev-louis]: https://jamalmazrui.github.io/BlindDevelopers/#dev-louis
 [dev-lovely]: https://jamalmazrui.github.io/BlindDevelopers/#dev-lovely
 [dev-malykh]: https://jamalmazrui.github.io/BlindDevelopers/#dev-malykh
